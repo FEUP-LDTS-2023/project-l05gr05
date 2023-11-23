@@ -5,9 +5,6 @@
       <module name="main" target="17" />
       <module name="main.main" target="17" />
       <module name="main.test" target="17" />
-      <module name="org.example.project-l05gr05" target="17" />
-      <module name="org.example.project-l05gr05.main" target="17" />
-      <module name="org.example.project-l05gr05.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
