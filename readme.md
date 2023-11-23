@@ -6,12 +6,12 @@ Autores: Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Fran
 
 ### IMPLEMENTED FEATURES
 
-> Menu: Oferece as funcionalidades de iniciar o jogo, pausá-lo, reiniciar, retomar e selecionar o nível do jogo;
-> Movimento do PacMan: O utilizador consegue movimentar o PacMan através das teclas convencionais do seu computador;
-> Movimento dos Monstros: Os Monstros movimentam-se automaticamente, de forma aleatória;
-> Colisão entre o PacMan e os Monstros: Quando o PacMan e os Monstros colidem, o PacMan perde uma vida e tem de recomeçar o nível em que se encontra. Caso seja a sua última vida, perde o jogo;
-> Boosts do PacMan: elementos que aparecem aleatoriamente em cada nível e que, assim que o PacMan os alcance, melhoram a sua performance (aumentam a sua velocidade, congelam os Monstros, atribuem vidas extra, etc.);
-> Preenchimento dos blocos: O caminho que o PacMan percorre vai preenchendo os blocos do mapa desde que não colida com nenhum monstro.
+- Menu: Oferece as funcionalidades de iniciar o jogo, pausá-lo, reiniciar, retomar e selecionar o nível do jogo;
+- Movimento do PacMan: O utilizador consegue movimentar o PacMan através das teclas convencionais do seu computador;
+- Movimento dos Monstros: Os Monstros movimentam-se automaticamente, de forma aleatória;
+- Colisão entre o PacMan e os Monstros: Quando o PacMan e os Monstros colidem, o PacMan perde uma vida e tem de recomeçar o nível em que se encontra. Caso seja a sua última vida, perde o jogo;
+- Boosts do PacMan: elementos que aparecem aleatoriamente em cada nível e que, assim que o PacMan os alcance, melhoram a sua performance (aumentam a sua velocidade, congelam os Monstros, atribuem vidas extra, etc.);
+- Preenchimento dos blocos: O caminho que o PacMan percorre vai preenchendo os blocos do mapa desde que não colida com nenhum monstro.
 
 ### PLANNED FEATURES
 
