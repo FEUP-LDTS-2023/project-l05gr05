@@ -1,4 +1,4 @@
-## LDTS_<T05><G05> - <PACXON>
+## LDTS_T05G05 - PACXON
 
 O "Pacxon" consiste na junção de dois jogos: PacMan e Xonix. O objetivo principal do jogo é preencher os espaços vazios e capturar os monstros construindo paredes à volta deles. O utilizador passa para o nível seguinte assim que preencher 80% do mapa. À medida que avança de nível a dificuldade aumenta.
 
@@ -15,8 +15,8 @@ Autores: Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Fran
 
 ### PLANNED FEATURES
 
-> Introdução de monstros novos à medida que avança de nível;
-> Música de fundo e sons do jogo (colisão com um monstro, captura de um boost, etc.);
+- Introdução de monstros novos à medida que avança de nível;
+- Música de fundo e sons do jogo (colisão com um monstro, captura de um boost, etc.);
 
 ### DESIGN
 
