@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.pacxon.WallTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-25T19:34:24" hostname="MBPdeBeatriz5.Home" time="0.252">
+  <properties/>
+  <testcase name="testWallDraw()" classname="com.aor.pacxon.WallTest" time="0.252"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
