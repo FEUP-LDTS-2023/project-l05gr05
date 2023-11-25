@@ -16,16 +16,29 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/org.example.project-l05gr05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/org.example.project-l05gr05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/project-l05gr05.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/project-l05gr05.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/CollisionCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/CollisionCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/DrawCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/DrawCheck.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Level.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Wall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/LevelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/LevelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/WallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/WallTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.aor.pacxon.WallTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.aor.pacxon.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.aor.pacxon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/project-l05gr05" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/project-l05gr05" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/project-l05gr05.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/project-l05gr05.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.aor.pacxon.WallTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +82,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -85,7 +101,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "testing",
     "last_directory_selection": "/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon",
     "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05",
     "node.js.detected.package.eslint": "true",
@@ -109,7 +125,7 @@
       <recent name="$PROJECT_DIR$/main/src/main/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Run">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aor.pacxon.Main" />
       <module name="project-l05gr05.main" />
