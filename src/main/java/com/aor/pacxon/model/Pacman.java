@@ -10,6 +10,13 @@ public class Pacman extends ObjectType {
         this.energy = 3;
     }
 
+    public boolean isDead(){
+        if (energy==0){
+            return true;
+        }
+        return false;
+    }
+
     public void decreaseEnergy() {
         this.energy--;
     }

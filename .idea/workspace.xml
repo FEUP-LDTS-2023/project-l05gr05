@@ -7,10 +7,9 @@
     <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Pacman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/levels/level1.lvl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/levels/level1.lvl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +69,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "game",
     "last_directory_selection": "/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon",
-    "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05/src/main/resources",
+    "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/LDTS David",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -112,7 +112,8 @@
       <workItem from="1700933063486" duration="49000" />
       <workItem from="1700933154017" duration="1355000" />
       <workItem from="1700936648042" duration="3981000" />
-      <workItem from="1701001329477" duration="1940000" />
+      <workItem from="1701001329477" duration="2248000" />
+      <workItem from="1701016589080" duration="2560000" />
     </task>
     <servers />
   </component>

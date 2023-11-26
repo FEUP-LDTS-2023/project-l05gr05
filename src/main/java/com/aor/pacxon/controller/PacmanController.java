@@ -27,14 +27,16 @@ public class PacmanController extends GameController {
     }
 
     private void moveHero(Position position) {
-        if (getModel().isEmpty(position)) {
+        //if (getModel().isEmpty(position)) {
             getModel().getPacman().setPosition(position);
             if (getModel().isMonster(position)) getModel().getPacman().decreaseEnergy();
-        }
+        //}
     }
 
     @Override
     public void step(Game game, GUI.ACTION action, long time) {
+        if (getModel().getPacman().isDead())
+            game.setState(new DieState((new MenuDie())));
         if (action == GUI.ACTION.UP) moveHeroUp();
         if (action == GUI.ACTION.RIGHT) moveHeroRight();
         if (action == GUI.ACTION.DOWN) moveHeroDown();
