@@ -1,6 +1,5 @@
-package com.aor.pacxon.controllertest;
+package com.aor.pacxon.controller;
 
-import com.aor.pacxon.controller.MenuController;
 import com.aor.pacxon.gui.GUI;
 import com.aor.pacxon.Game;
 import com.aor.pacxon.model.Menu;

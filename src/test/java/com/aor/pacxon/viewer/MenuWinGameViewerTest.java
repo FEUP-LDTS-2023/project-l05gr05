@@ -1,8 +1,7 @@
-package com.aor.pacxon.viewertest;
+package com.aor.pacxon.viewer;
 
 import com.aor.pacxon.gui.GUI;
 import com.aor.pacxon.model.MenuWinGame;
-import com.aor.pacxon.viewer.MenuWinGameViewer;
 import com.aor.pacxon.model.Position;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,14 +1,11 @@
-package com.aor.pacxon.controllertest;
+package com.aor.pacxon.controller;
 
-import com.aor.pacxon.controller.PacmanController;
 import com.aor.pacxon.model.Arena;
-import com.aor.pacxon.model.Monster;
 import com.aor.pacxon.model.Pacman;
 import com.aor.pacxon.model.Position;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import java.util.ArrayList;
-import java.util.List;
+
 import static org.mockito.Mockito.*;
 
 public class PacmanControllerTest {

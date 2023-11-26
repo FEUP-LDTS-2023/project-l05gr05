@@ -1,11 +1,9 @@
-package com.aor.pacxon.viewertest;
+package com.aor.pacxon.viewer;
 
 import com.aor.pacxon.gui.GUI;
 import com.aor.pacxon.model.Position;
 import com.aor.pacxon.model.Wall;
-import com.aor.pacxon.viewer.WallViewer;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
 import static org.mockito.Mockito.*;
 

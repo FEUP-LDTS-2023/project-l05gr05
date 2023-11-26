@@ -1,10 +1,8 @@
-package com.aor.pacxon.controllertest;
+package com.aor.pacxon.controller;
 
-import com.aor.pacxon.controller.MenuWinLevelController;
 import com.aor.pacxon.Game;
 import com.aor.pacxon.gui.GUI;
 import com.aor.pacxon.model.LoaderArenaBuilder;
-import com.aor.pacxon.model.Menu;
 import com.aor.pacxon.model.MenuWinLevel;
 import com.aor.pacxon.states.GameState;
 import com.aor.pacxon.states.MenuState;

@@ -1,14 +1,9 @@
-package com.aor.pacxon.controllertest;
+package com.aor.pacxon.controller;
 
-import com.aor.pacxon.controller.ArenaController;
-import com.aor.pacxon.gui.GUI;
 import com.aor.pacxon.model.Arena;
 import com.aor.pacxon.model.Pacman;
-import com.aor.pacxon.Game;
-import com.aor.pacxon.states.MenuState;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import java.io.IOException;
+
 import static org.mockito.Mockito.*;
 
 public class ArenaControllerTest {

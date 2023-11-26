@@ -1,12 +1,4 @@
-package com.aor.pacxon.viewertest;
-
-import com.aor.pacxon.gui.GUI;
-import com.aor.pacxon.model.Pacman;
-import com.aor.pacxon.viewer.PacmanViewer;
-import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
-
-import static org.mockito.Mockito.*;
+package com.aor.pacxon.viewer;
 
 public class PacmanViewerTest {
     /**

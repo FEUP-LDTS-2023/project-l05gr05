@@ -1,9 +1,7 @@
-package com.aor.pacxon.controllertest;
+package com.aor.pacxon.controller;
 
-import com.aor.pacxon.controller.MenuDieController;
 import com.aor.pacxon.Game;
 import com.aor.pacxon.gui.GUI;
-import com.aor.pacxon.model.Menu;
 import com.aor.pacxon.model.MenuDie;
 import com.aor.pacxon.states.MenuState;
 import org.junit.jupiter.api.BeforeEach;
