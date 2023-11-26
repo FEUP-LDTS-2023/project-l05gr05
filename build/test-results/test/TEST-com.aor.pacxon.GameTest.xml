@@ -1,0 +1,7 @@
+git <?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.pacxon.GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-26T13:53:08" hostname="AirdeFrancisca9" time="0.04">
+  <properties/>
+  <testcase name="testGameInitialization()" classname="com.aor.pacxon.GameTest" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
