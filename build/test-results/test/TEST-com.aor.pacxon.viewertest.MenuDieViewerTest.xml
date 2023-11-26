@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.pacxon.viewertest.MenuDieViewerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-26T18:31:55" hostname="MBPdeBeatriz5.Home" time="0.011">
+  <properties/>
+  <testcase name="testDrawElementsGameOverText()" classname="com.aor.pacxon.viewertest.MenuDieViewerTest" time="0.008"/>
+  <testcase name="testDrawElementsEntries()" classname="com.aor.pacxon.viewertest.MenuDieViewerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
