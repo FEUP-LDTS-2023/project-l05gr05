@@ -6,66 +6,34 @@ Autores: Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Fran
 
 ### IMPLEMENTED FEATURES
 
-- Menu: Oferece as funcionalidades de iniciar o jogo, pausá-lo, reiniciar, retomar e selecionar o nível do jogo;
+- Menu: Oferece as funcionalidades de iniciar o jogo, ver como jogar, ver as regras e sair;
 - Movimento do PacMan: O utilizador consegue movimentar o PacMan através das teclas convencionais do seu computador;
 - Movimento dos Monstros: Os Monstros movimentam-se automaticamente, de forma aleatória;
 - Colisão entre o PacMan e os Monstros: Quando o PacMan e os Monstros colidem, o PacMan perde uma vida e tem de recomeçar o nível em que se encontra. Caso seja a sua última vida, perde o jogo;
+
+
+### PLANNED FEATURES
+- Menu: pausá-lo, reiniciar, retomar e selecionar o nível do jogo;
+- Introdução de monstros novos à medida que avança de nível;
+- Música de fundo e sons do jogo (colisão com um monstro, captura de um boost, etc.);
 - Boosts do PacMan: elementos que aparecem aleatoriamente em cada nível e que, assim que o PacMan os alcance, melhoram a sua performance (aumentam a sua velocidade, congelam os Monstros, atribuem vidas extra, etc.);
 - Preenchimento dos blocos: O caminho que o PacMan percorre vai preenchendo os blocos do mapa desde que não colida com nenhum monstro.
 
-### PLANNED FEATURES
-
-- Introdução de monstros novos à medida que avança de nível;
-- Música de fundo e sons do jogo (colisão com um monstro, captura de um boost, etc.);
-
 ### DESIGN
 
-> This section should be organized in different subsections, each describing a different design problem that you had to solve during the project. Each subsection should be organized in four different parts:
+- **Problem in Context.** Durante o desenvolvimento do Pacxon, deparámo-nos com o desafio de gerir diferentes estados do jogo, tais como o menu, a jogabilidade e as situações de fim de nível.
+- **The Pattern.** Para solucionar isso, decidimos implementar o pattern de design State. Este pattern é ideal para cenários onde o comportamento de um objeto muda com base no seu estado interno. Ao encapsular os comportamentos específicos de cada estado em classes separadas, conseguimos simplificar as transições e interações entre os diferentes estados do jogo.
+- **Implementation.** Criámos classes base abstratas para cada estado, como MenuState e GameState e implementámos os comportamentos específicos nas suas subclasses respectivas. Esta estrutura facilitou a mudança entre estados e tornou o código mais modular e legível.
 
-- **Problem in Context.** The description of the design context and the concrete problem that motivated the instantiation of the pattern. Someone else other than the original developer should be able to read and understand all the motivations for the decisions made. When refering to the implementation before the pattern was applied, don’t forget to [link to the relevant lines of code](https://help.github.com/en/articles/creating-a-permanent-link-to-a-code-snippet) in the appropriate version.
-- **The Pattern.** Identify the design pattern to be applied, why it was selected and how it is a good fit considering the existing design context and the problem at hand.
-- **Implementation.** Show how the pattern roles, operations and associations were mapped to the concrete design classes. Illustrate it with a UML class diagram, and refer to the corresponding source code with links to the relevant lines (these should be [relative links](https://help.github.com/en/articles/about-readmes#relative-links-and-image-paths-in-readme-files). When doing this, always point to the latest version of the code.
-- **Consequences.** Benefits and liabilities of the design after the pattern instantiation, eventually comparing these consequences with those of alternative solutions.
+  Classes:
+- [MenuState](https://github.com/FEUP-LDTS-2023/project-l05gr05/blob/main/src/main/java/com/aor/pacxon/states/MenuState.java)
+- [GameState](https://github.com/FEUP-LDTS-2023/project-l05gr05/blob/main/src/main/java/com/aor/pacxon/states/GameState.java)
 
-**Example of one of such subsections**:
-
-------
-
-#### THE JUMP ACTION OF THE KANGAROOBOY SHOULD BEHAVE DIFFERENTLY DEPENDING ON ITS STATE
-
-**Problem in Context**
-
-There was a lot of scattered conditional logic when deciding how the KangarooBoy should behave when jumping, as the jumps should be different depending on the items that came to his possession during the game (an helix will alow him to fly, driking a potion will allow him to jump double the height, etc.). This is a violation of the **Single Responsability Principle**. We could concentrate all the conditional logic in the same method to circumscribe the issue to that one method but the **Single Responsability Principle** would still be violated.
-
-**The Pattern**
-
-We have applied the **State** pattern. This pattern allows you to represent different states with different subclasses. We can switch to a different state of the application by switching to another implementation (i.e., another subclass). This pattern allowed to address the identified problems because […].
-
-**Implementation**
-
-The following figure shows how the pattern’s roles were mapped to the application classes.
-
-![img](https://www.fe.up.pt/~arestivo/page/img/examples/lpoo/state.svg)
-
-These classes can be found in the following files:
-
-- [Character](https://web.fe.up.pt/~arestivo/page/courses/2021/lpoo/template/src/main/java/Character.java)
-- [JumpAbilityState](https://web.fe.up.pt/~arestivo/page/courses/2021/lpoo/template/src/main/java/JumpAbilityState.java)
-- [DoubleJumpState](https://web.fe.up.pt/~arestivo/page/courses/2021/lpoo/template/src/main/java/DoubleJumpState.java)
-- [HelicopterState](https://web.fe.up.pt/~arestivo/page/courses/2021/lpoo/template/src/main/java/HelicopterState.java)
-- [IncreasedGravityState](https://web.fe.up.pt/~arestivo/page/courses/2021/lpoo/template/src/main/java/IncreasedGravityState.java)
-
-**Consequences**
-
-The use of the State Pattern in the current design allows the following benefits:
-
-- The several states that represent the character’s hability to jump become explicit in the code, instead of relying on a series of flags.
-- We don’t need to have a long set of conditional if or switch statements associated with the various states; instead, polimorphism is used to activate the right behavior.
-- There are now more classes and instances to manage, but still in a reasonable number.
+- **Consequences.** A aplicação do padrão State melhorou significativamente a manutenção e escalabilidade do jogo Pacxon. Cada estado do jogo pode agora ser modificado independentemente sem afetar os outros, facilitando futuros aprimoramentos e correções de bugs. No entanto, esta abordagem introduziu classes adicionais, o que aumentou ligeiramente a complexidade da base de código. Apesar disso, os benefícios de uma maior modularidade e adesão aos princípios de design superaram as desvantagens.
 
 #### KNOWN CODE SMELLS
 
-> This section should describe 3 to 5 different code smells that you have identified in your current implementation.
+- Não encontramos nenhum code smell evidente, as classes parecem bem distribuídas, nenhuma classe tem demasiado código.
 
 ### TESTING
 
@@ -74,9 +42,6 @@ The use of the State Pattern in the current design allows the following benefits
 
 ### SELF-EVALUATION
 
-> In this section describe how the work regarding the project was divided between the students. In the event that members of the group do not agree on a work distribution, the group should send an email to the teacher explaining the disagreement.
-
-**Example**:
-
-- John Doe: 40%
-- Jane Doe: 60%
+- Beatriz Pereira: 33%
+- Francisca Fernandes: 33%
+- Francisco Lopes: 33%
