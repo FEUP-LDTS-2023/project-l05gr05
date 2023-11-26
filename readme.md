@@ -41,6 +41,7 @@ A aplicação do padrão State melhorou significativamente a manutenção e esca
 ### MOCKUPS 
 
 Os seguintes mockups foram desenvolvidos recorrendo à plataforma "Figma" e têm como objetivo esboçar o resultado do design final pretendido pelo grupo.
+Inicialmente pensámos que poderíamos utilizar ficheiros com a extensão .png no projeto então tínhamos idealizado estes mockups. Depois de reler o script, vimos que tinha que ser tudo em texto então o resultado final ficou evidentemente diferente dos mockups.
 
 ![](mockups/MenuInicial.png) 
 **Fig 2.** Menu Inicial 
