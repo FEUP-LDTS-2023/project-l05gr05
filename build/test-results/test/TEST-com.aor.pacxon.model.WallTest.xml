@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.model.WallTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-26T17:09:54" hostname="AirdeFrancisca9" time="0.014">
+<testsuite name="com.aor.pacxon.model.WallTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-26T18:02:29" hostname="AirdeFrancisca9" time="0.005">
   <properties/>
-  <testcase name="testWallInteractions()" classname="com.aor.pacxon.model.WallTest" time="0.007"/>
+  <testcase name="testWallInteractions()" classname="com.aor.pacxon.model.WallTest" time="0.001"/>
   <testcase name="testInitialization()" classname="com.aor.pacxon.model.WallTest" time="0.001"/>
   <testcase name="testPositionChange()" classname="com.aor.pacxon.model.WallTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
