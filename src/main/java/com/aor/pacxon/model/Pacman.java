@@ -7,7 +7,14 @@ public class Pacman extends ObjectType {
 
     public Pacman(int x, int y) {
         super(x, y);
-        this.energy = 10;
+        this.energy = 3;
+    }
+
+    public boolean isDead(){
+        if (energy==0){
+            return true;
+        }
+        return false;
     }
 
     public void decreaseEnergy() {

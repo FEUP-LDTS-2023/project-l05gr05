@@ -4,9 +4,7 @@ import com.aor.pacxon.model.Pacman;
 import com.aor.pacxon.model.Monster;
 import com.aor.pacxon.model.Wall;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,9 +15,11 @@ public class LoaderArenaBuilder extends ArenaBuilder {
 
     public LoaderArenaBuilder(int level) throws IOException {
         this.level = level;
-        URL resource = LoaderArenaBuilder.class.getResource("/levels/level" + level + ".lvl");
-        BufferedReader br = new BufferedReader(new FileReader(resource.getFile()));
-
+        InputStream is = LoaderArenaBuilder.class.getResourceAsStream("/levels/level" + level + ".lvl");
+        if (is == null) {
+            throw new IOException("Resource file not found: /levels/level" + level + ".lvl");
+        }
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
         lines = readLines(br);
     }
 

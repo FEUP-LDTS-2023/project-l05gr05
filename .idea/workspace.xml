@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/ArenaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/GameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/PacmanController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Arena.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/ArenaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/ArenaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinGameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinLevelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MonsterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MonsterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/ArenaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/ArenaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Monster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Pacman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/states/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/states/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/GameViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/GameViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/MenuViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/MenuViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/PacmanViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/PacmanViewer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +69,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "prototype",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "game",
     "last_directory_selection": "/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon",
-    "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05/src/main/resources",
+    "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/LDTS David",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -125,39 +98,6 @@
       <recent name="$PROJECT_DIR$/main/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.aor.pacxon.Main" />
-      <module name="project-l05gr05.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.aor.pacxon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.aor.pacxon.App" />
-      <module name="project-l05gr05" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Run" />
-      <item itemvalue="Application.Main" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,6 +112,8 @@
       <workItem from="1700933063486" duration="49000" />
       <workItem from="1700933154017" duration="1355000" />
       <workItem from="1700936648042" duration="3981000" />
+      <workItem from="1701001329477" duration="2248000" />
+      <workItem from="1701016589080" duration="2560000" />
     </task>
     <servers />
   </component>
