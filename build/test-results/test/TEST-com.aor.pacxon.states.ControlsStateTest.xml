@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.states.ControlsStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-26T18:02:29" hostname="AirdeFrancisca9" time="0.011">
+<testsuite name="com.aor.pacxon.states.ControlsStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-26T18:23:57" hostname="AirdeFrancisca9" time="0.016">
   <properties/>
-  <testcase name="testGetController()" classname="com.aor.pacxon.states.ControlsStateTest" time="0.006"/>
-  <testcase name="testGetViewer()" classname="com.aor.pacxon.states.ControlsStateTest" time="0.002"/>
+  <testcase name="testGetController()" classname="com.aor.pacxon.states.ControlsStateTest" time="0.013"/>
+  <testcase name="testGetViewer()" classname="com.aor.pacxon.states.ControlsStateTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
