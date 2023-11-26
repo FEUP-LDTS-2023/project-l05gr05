@@ -31,14 +31,6 @@ Autores: Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Fran
 
 - **Consequences.** A aplicação do padrão State melhorou significativamente a manutenção e escalabilidade do jogo Pacxon. Cada estado do jogo pode agora ser modificado independentemente sem afetar os outros, facilitando futuros aprimoramentos e correções de bugs. No entanto, esta abordagem introduziu classes adicionais, o que aumentou ligeiramente a complexidade da base de código. Apesar disso, os benefícios de uma maior modularidade e adesão aos princípios de design superaram as desvantagens.
 
-#### KNOWN CODE SMELLS
-
-- Não encontramos nenhum code smell evidente, as classes parecem bem distribuídas, nenhuma classe tem demasiado código.
-
-### TESTING
-
-- Screenshot of coverage report.
-- Link to mutation testing report.
 
 ### SELF-EVALUATION
 
