@@ -1,0 +1,29 @@
+Index: src/test/java/com/aor/pacxon/AppTest.java
+===================================================================
+diff --git a/src/test/java/com/aor/pacxon/AppTest.java b/src/test/java/com/aor/pacxon/AppTest.java
+deleted file mode 100644
+--- a/src/test/java/com/aor/pacxon/AppTest.java	(revision 367e30d88953c1b778430fdd9dfd61dd2cfa4ecc)
++++ /dev/null	(revision 367e30d88953c1b778430fdd9dfd61dd2cfa4ecc)
+@@ -1,21 +0,0 @@
+-package com.aor.pacxon;
+-
+-import org.junit.jupiter.api.Test;
+-import static org.junit.jupiter.api.Assertions.assertNotNull;
+-import static org.junit.jupiter.api.Assertions.assertTrue;
+-import static org.junit.jupiter.api.Assertions.assertFalse;
+-
+-public class AppTest {
+-    /*
+-    @Test
+-    public void testAppInitialization() {
+-        //testa a inicialização e o início da execução do jogo na classe Game
+-        Game game = new Game();
+-        assertNotNull(game);
+-        game.start();
+-        assertNotNull(game.getCurrentLevel()); // getCurrentLevel() por implementar
+-        assertTrue(game.isRunning()); // isRunning() por implementar
+-
+-    }
+-     */
+-}
+\ No newline at end of file
