@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +95,7 @@
       <recent name="C:\Users\ftmlo\Ambiente de Trabalho\FEUP\LDTS\project-l05gr05\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mockups" />
       <recent name="C:\Users\ftmlo\Ambiente de Trabalho\FEUP\LDTS\project-l05gr05\src\main\resources" />
       <recent name="$PROJECT_DIR$/main/src/main/java" />
     </key>

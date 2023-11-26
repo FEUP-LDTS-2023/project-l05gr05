@@ -25,11 +25,49 @@ Autores: Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Fran
 - **The Pattern.** Para solucionar isso, decidimos implementar o pattern de design State. Este pattern é ideal para cenários onde o comportamento de um objeto muda com base no seu estado interno. Ao encapsular os comportamentos específicos de cada estado em classes separadas, conseguimos simplificar as transições e interações entre os diferentes estados do jogo.
 - **Implementation.** Criámos classes base abstratas para cada estado, como MenuState e GameState e implementámos os comportamentos específicos nas suas subclasses respectivas. Esta estrutura facilitou a mudança entre estados e tornou o código mais modular e legível.
 
-  Classes:
+**Classes:**
 - [MenuState](https://github.com/FEUP-LDTS-2023/project-l05gr05/blob/main/src/main/java/com/aor/pacxon/states/MenuState.java)
 - [GameState](https://github.com/FEUP-LDTS-2023/project-l05gr05/blob/main/src/main/java/com/aor/pacxon/states/GameState.java)
 
-- **Consequences.** A aplicação do padrão State melhorou significativamente a manutenção e escalabilidade do jogo Pacxon. Cada estado do jogo pode agora ser modificado independentemente sem afetar os outros, facilitando futuros aprimoramentos e correções de bugs. No entanto, esta abordagem introduziu classes adicionais, o que aumentou ligeiramente a complexidade da base de código. Apesar disso, os benefícios de uma maior modularidade e adesão aos princípios de design superaram as desvantagens.
+**Consequences:** 
+
+A aplicação do padrão State melhorou significativamente a manutenção e escalabilidade do jogo Pacxon. Cada estado do jogo pode agora ser modificado independentemente sem afetar os outros, facilitando futuros aprimoramentos e correções de bugs. No entanto, esta abordagem introduziu classes adicionais, o que aumentou ligeiramente a complexidade da base de código. Apesar disso, os benefícios de uma maior modularidade e adesão aos princípios de design superaram as desvantagens.
+
+### UML
+
+![](uml/uml.png)
+**Fig 1.** Modelo UML do Projeto
+
+### MOCKUPS 
+
+Os seguintes mockups foram desenvolvidos recorrendo à plataforma "Figma" e têm como objetivo esboçar o resultado do design final pretendido pelo grupo.
+
+![](mockups/Menu Inicial.png) 
+**Fig 2.** Menu Inicial 
+
+![](mockups/Como Jogar.png)
+**Fig 3.** Como Jogar
+
+![](mockups/Menu Níveis.png)  
+**Fig 4.** Menu Níveis
+
+![](mockups/Nível 1.png) 
+**Fig 5.** Nível 1
+
+![](mockups/Nível 2.png)
+**Fig 6.** Nível 2
+
+![](mockups/Nível 3.png)
+**Fig 7.** Nível 3
+
+![](mockups/Ecrã Colisão.png)
+**Fig 8.** Simulação de Colisão
+
+![](mockups/Game Over.png) 
+**Fig 9.** Ecrã em caso de Game Over
+
+![](mockups/Win.png)   
+**Fig 10.** Ecrã em caso de Win
 
 
 ### SELF-EVALUATION
