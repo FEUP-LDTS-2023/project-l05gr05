@@ -10,23 +10,23 @@ public class PacmanController extends GameController {
         super(arena);
     }
 
-    public void moveHeroLeft() {
-        moveHero(getModel().getPacman().getPosition().getLeft());
+    public void movePacmanLeft() {
+        movePacman(getModel().getPacman().getPosition().getLeft());
     }
 
-    public void moveHeroRight() {
-        moveHero(getModel().getPacman().getPosition().getRight());
+    public void movePacmanRight() {
+        movePacman(getModel().getPacman().getPosition().getRight());
     }
 
-    public void moveHeroUp() {
-        moveHero(getModel().getPacman().getPosition().getUp());
+    public void movePacmanUp() {
+        movePacman(getModel().getPacman().getPosition().getUp());
     }
 
-    public void moveHeroDown() {
-        moveHero(getModel().getPacman().getPosition().getDown());
+    public void movePacmanDown() {
+        movePacman(getModel().getPacman().getPosition().getDown());
     }
 
-    private void moveHero(Position position) {
+    private void movePacman(Position position) {
         if (getModel().isEmpty(position)) {
             getModel().getPacman().setPosition(position);
             if (getModel().isMonster(position)) getModel().getPacman().decreaseEnergy();
@@ -35,9 +35,9 @@ public class PacmanController extends GameController {
 
     @Override
     public void step(Game game, GUI.ACTION action, long time) {
-        if (action == GUI.ACTION.UP) moveHeroUp();
-        if (action == GUI.ACTION.RIGHT) moveHeroRight();
-        if (action == GUI.ACTION.DOWN) moveHeroDown();
-        if (action == GUI.ACTION.LEFT) moveHeroLeft();
+        if (action == GUI.ACTION.UP) movePacmanUp();
+        if (action == GUI.ACTION.RIGHT) movePacmanRight();
+        if (action == GUI.ACTION.DOWN) movePacmanDown();
+        if (action == GUI.ACTION.LEFT) movePacmanLeft();
     }
 }

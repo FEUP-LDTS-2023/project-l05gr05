@@ -1,0 +1,144 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\n  <component name=\"FrameworkDetectionExcludesConfiguration\">\n    <file type=\"web\" url=\"file://$PROJECT_DIR$\" />\n    <file type=\"web\" url=\"file://$PROJECT_DIR$/main\" />\n  </component>\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_17\" default=\"true\" project-jdk-name=\"openjdk-19\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision fe171326c7115f09b691c6a095a6edbd5362e726)
++++ b/.idea/misc.xml	(date 1701007884865)
+@@ -5,7 +5,7 @@
+     <file type="web" url="file://$PROJECT_DIR$" />
+     <file type="web" url="file://$PROJECT_DIR$/main" />
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"3614d2b4-eac6-4f2c-a07b-1431bdf2cda6\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/checksums/md5-checksums.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/checksums/md5-checksums.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.gradle/file-system.probe\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/file-system.probe\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/App.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/App.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/CollisionCheck.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/CollisionCheck.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/DrawCheck.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/DrawCheck.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Level.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Level.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Wall.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Wall.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/AppTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/AppTest.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/LevelTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/LevelTest.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/WallTest.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/WallTest.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/reports/tests/test/classes/com.aor.pacxon.WallTest.html\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/reports/tests/test/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/reports/tests/test/index.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/reports/tests/test/packages/com.aor.pacxon.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/reports/tests/test/packages/com.aor.pacxon.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/scripts/project-l05gr05\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/scripts/project-l05gr05\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/scripts/project-l05gr05.bat\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/scripts/project-l05gr05.bat\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/test-results/test/TEST-com.aor.pacxon.WallTest.xml\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/test-results/test/binary/results.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/test-results/test/binary/results.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n    <projectState path=\"$PROJECT_DIR$/main\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$/main\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand />\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"DEPENDENCY_CHECKER_PROBLEMS_TAB\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 3\n}</component>\n  <component name=\"ProjectId\" id=\"2YaJWOJJ9Zr1i8R1i6HOPhKBgBT\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"git-widget-placeholder\": \"testing\",\n    \"last_directory_selection\": \"/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon\",\n    \"last_opened_file_path\": \"C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"configurable.group.editor\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  },\n  \"keyToStringList\": {\n    \"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\": [\n      \"Markdown\"\n    ]\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/main/src/main/java\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Run\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.aor.pacxon.Main\" />\n      <module name=\"project-l05gr05.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.aor.pacxon.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Run\" type=\"Application\" factoryName=\"Application\">\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"openjdk-19\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.aor.pacxon.App\" />\n      <module name=\"project-l05gr05\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"Application.Run\" />\n      <item itemvalue=\"Application.Main\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"3614d2b4-eac6-4f2c-a07b-1431bdf2cda6\" name=\"Changes\" comment=\"\" />\n      <created>1700757788022</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1700757788022</updated>\n      <workItem from=\"1700761025656\" duration=\"1800000\" />\n      <workItem from=\"1700763735795\" duration=\"299000\" />\n      <workItem from=\"1700770809206\" duration=\"3038000\" />\n      <workItem from=\"1700933063486\" duration=\"49000\" />\n      <workItem from=\"1700933154017\" duration=\"1355000\" />\n      <workItem from=\"1700936648042\" duration=\"3981000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision fe171326c7115f09b691c6a095a6edbd5362e726)
++++ b/.idea/workspace.xml	(date 1701007884861)
+@@ -5,40 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/md5-checksums.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/checksums/sha1-checksums.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/App.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/CollisionCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/CollisionCheck.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/DrawCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/DrawCheck.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Level.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Wall.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/AppTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/LevelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/LevelTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/WallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/WallTest.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.aor.pacxon.WallTest.html" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.aor.pacxon.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.aor.pacxon.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/scripts/project-l05gr05" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/project-l05gr05" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/scripts/project-l05gr05.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/project-l05gr05.bat" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.aor.pacxon.WallTest.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -77,6 +44,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -96,30 +68,30 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "testing",
+-    "last_directory_selection": "/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon",
+-    "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "configurable.group.editor",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;testing&quot;,
++    &quot;last_directory_selection&quot;: &quot;/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+-  "keyToStringList": {
+-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+-      "Markdown"
++  &quot;keyToStringList&quot;: {
++    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
++      &quot;Markdown&quot;
+     ]
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/main/src/main/java" />
+@@ -172,6 +144,7 @@
+       <workItem from="1700933063486" duration="49000" />
+       <workItem from="1700933154017" duration="1355000" />
+       <workItem from="1700936648042" duration="3981000" />
++      <workItem from="1701007854020" duration="31000" />
+     </task>
+     <servers />
+   </component>
