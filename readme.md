@@ -42,28 +42,28 @@ A aplicação do padrão State melhorou significativamente a manutenção e esca
 
 Os seguintes mockups foram desenvolvidos recorrendo à plataforma "Figma" e têm como objetivo esboçar o resultado do design final pretendido pelo grupo.
 
-![](mockups/Menu Inicial.png) 
+![](mockups/MenuInicial.png) 
 **Fig 2.** Menu Inicial 
 
-![](mockups/Como Jogar.png)
+![](mockups/ComoJogar.png)
 **Fig 3.** Como Jogar
 
-![](mockups/Menu Níveis.png)  
+![](mockups/MenuNiveis.png)  
 **Fig 4.** Menu Níveis
 
-![](mockups/Nível 1.png) 
+![](mockups/Nivel1.png) 
 **Fig 5.** Nível 1
 
-![](mockups/Nível 2.png)
+![](mockups/Nivel2.png)
 **Fig 6.** Nível 2
 
-![](mockups/Nível 3.png)
+![](mockups/Nivel3.png)
 **Fig 7.** Nível 3
 
-![](mockups/Ecrã Colisão.png)
+![](mockups/EcraColisão.png)
 **Fig 8.** Simulação de Colisão
 
-![](mockups/Game Over.png) 
+![](mockups/GameOver.png) 
 **Fig 9.** Ecrã em caso de Game Over
 
 ![](mockups/Win.png)   
