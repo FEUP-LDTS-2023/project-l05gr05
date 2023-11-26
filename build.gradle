@@ -19,7 +19,7 @@ dependencies {
 }
 
 application {
-    mainClassName = 'com.aor.pacxon.App'
+    mainClassName = 'com.aor.pacxon.Game'
 }
 
 test {

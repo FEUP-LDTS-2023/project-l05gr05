@@ -14,11 +14,7 @@ public interface GUI {
 
     void refresh() throws IOException;
 
-    void drawBarrel(Position position);
-
-    void drawCoin(Position position);
-
-    enum ACTION {UP, RIGHT, DOWN, LEFT, NONE, QUIT, SELECT, USE}
+    enum ACTION {UP, RIGHT, DOWN, LEFT, NONE, QUIT, SELECT}
 
     ACTION getNextAction() throws IOException;
 
@@ -27,9 +23,5 @@ public interface GUI {
     void drawMonster(Position position);
 
     void drawWall(Position position);
-
-
-
-    void drawBomb(Position position);
 }
 

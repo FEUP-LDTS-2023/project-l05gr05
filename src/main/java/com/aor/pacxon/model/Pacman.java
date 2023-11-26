@@ -1,4 +1,28 @@
 package com.aor.pacxon.model;
 
-public class Pacman {
+import java.util.List;
+
+public class Pacman extends ObjectType {
+    private int energy;
+
+    public Pacman(int x, int y) {
+        super(x, y);
+        this.energy = 1;
+    }
+    public boolean isDead(){
+        if (energy==0){
+            return true;
+        }
+        return false;
+    }
+
+    public void decreaseEnergy() {
+        this.energy--;
+    }
+
+    public float getEnergy() {
+        return energy;
+    }
+
+    public void setEnergy(int energy) {this.energy = energy;}
 }

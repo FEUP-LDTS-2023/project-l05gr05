@@ -1,4 +1,9 @@
 package com.aor.pacxon.controller;
 
-public abstract class GameController {
+import com.aor.pacxon.model.Arena;
+
+public abstract class GameController extends Controller<Arena> {
+
+    public GameController(Arena arena) { super(arena);}
+
 }
