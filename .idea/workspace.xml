@@ -4,40 +4,89 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="">
+    <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="Created the folders for testing">
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/ArenaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/GameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/PacmanController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Arena.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/ArenaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/ArenaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinGameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MenuWinLevelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MonsterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/MonsterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Arena.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/ArenaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/ArenaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Monster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Pacman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/states/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/states/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/GameViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/GameViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/MenuViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/MenuViewer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/PacmanViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/PacmanViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/CollisionCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/DrawCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/ArenaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/ArenaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuControlsController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuControlsController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuControlsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuControlsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuDieController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuDieController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuDieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuDieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuHTPController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuHTPController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuHTPController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuHTPController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinGameController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinGameController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinGameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinGameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinLevelController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinLevelController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinLevelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MenuWinLevelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MonsterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/MonsterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/PacmanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/controller/PacmanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/gui/GUI$ACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/gui/GUI$ACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/gui/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/gui/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/gui/LanternaGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/gui/LanternaGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Arena.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Arena.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/ArenaBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/ArenaBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/LoaderArenaBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/LoaderArenaBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuControls.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuControls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuDie.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuDie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuHTP.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuHTP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuWinGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuWinGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuWinLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/MenuWinLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Monster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/ObjectType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/ObjectType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Pacman.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Pacman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Position.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/model/Wall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/ControlsState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/ControlsState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/DieState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/DieState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/HTPState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/HTPState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/MenuState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/MenuState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/WinGameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/WinGameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/WinLevelState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/states/WinLevelState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/GameViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/GameViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuControlsViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuControlsViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuDieViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuDieViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuHTPViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuHTPViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuWinGameViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuWinGameViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuWinLevelViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MenuWinLevelViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MonsterViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/MonsterViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/ObjectViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/ObjectViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/PacmanViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/PacmanViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/Viewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/Viewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/WallViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/pacxon/viewer/WallViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/LevelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/pacxon/WallTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/project-l05gr05-1.0-SNAPSHOT.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/project-l05gr05-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.aor.pacxon.GameTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.aor.pacxon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/project-l05gr05.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/project-l05gr05.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.aor.pacxon.GameTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Wall.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +125,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -97,7 +151,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "prototype",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "testingf",
     "last_directory_selection": "/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon",
     "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05/src/main/resources",
     "node.js.detected.package.eslint": "true",
@@ -173,6 +228,15 @@
       <workItem from="1700933154017" duration="1355000" />
       <workItem from="1700936648042" duration="3981000" />
     </task>
+    <task id="LOCAL-00001" summary="Created the folders for testing">
+      <option name="closed" value="true" />
+      <created>1701008416718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701008416718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,5 +252,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created the folders for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the folders for testing" />
   </component>
 </project>
