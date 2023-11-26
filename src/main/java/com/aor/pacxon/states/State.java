@@ -29,5 +29,11 @@ public abstract class State<T> {
     public T getModel() {
         return model;
     }
+
+    public void step(Game game, GUI gui, long time) throws IOException {
+        GUI.ACTION action = gui.getNextAction();
+        controller.step(game, action, time);
+        viewer.draw(gui);
+    }
 }
 

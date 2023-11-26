@@ -6,11 +6,6 @@ import com.aor.pacxon.Game;
 import com.aor.pacxon.states.DieState;
 
 public class PacmanController extends GameController {
-
-    private static int var = 0;
-    private static boolean bool = false;
-    private long lastBomb;
-
     public PacmanController(Arena arena) {
         super(arena);
     }
@@ -24,21 +19,25 @@ public class PacmanController extends GameController {
     }
 
     public void moveHeroUp() {
-        Position position1 = new Position(getModel().getPacman().getPosition().getX(),getModel().getPacman().getPosition().getY()-1);
         moveHero(getModel().getPacman().getPosition().getUp());
     }
 
     public void moveHeroDown() {
-        Position position1 = new Position(getModel().getPacman().getPosition().getX(),getModel().getPacman().getPosition().getY()+1);
         moveHero(getModel().getPacman().getPosition().getDown());
     }
-
 
     private void moveHero(Position position) {
         if (getModel().isEmpty(position)) {
             getModel().getPacman().setPosition(position);
             if (getModel().isMonster(position)) getModel().getPacman().decreaseEnergy();
-
         }
+    }
+
+    @Override
+    public void step(Game game, GUI.ACTION action, long time) {
+        if (action == GUI.ACTION.UP) moveHeroUp();
+        if (action == GUI.ACTION.RIGHT) moveHeroRight();
+        if (action == GUI.ACTION.DOWN) moveHeroDown();
+        if (action == GUI.ACTION.LEFT) moveHeroLeft();
     }
 }

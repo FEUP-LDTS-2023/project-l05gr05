@@ -72,7 +72,7 @@ set CLASSPATH=%APP_HOME%\lib\project-l05gr05-1.0-SNAPSHOT.jar;%APP_HOME%\lib\lan
 
 
 @rem Execute project-l05gr05
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %PROJECT_L05GR05_OPTS%  -classpath "%CLASSPATH%" com.aor.pacxon.App %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %PROJECT_L05GR05_OPTS%  -classpath "%CLASSPATH%" com.aor.pacxon.Game %*
 
 :end
 @rem End local scope for the variables with windows NT shell

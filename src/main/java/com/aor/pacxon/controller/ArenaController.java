@@ -19,32 +19,13 @@ public class ArenaController extends GameController {
         this.pacmanController = new PacmanController(arena);
         this.monsterController = new MonsterController(arena);
     }
-}
-/**    public void step(Game game, GUI.ACTION action, long time) throws IOException {
-        if(action == GUI.ACTION.QUIT){
+
+    public void step(Game game, GUI.ACTION action, long time) throws IOException {
+        if (action == GUI.ACTION.QUIT || getModel().getPacman().getEnergy() == 0)
             game.setState(new MenuState(new Menu()));
-        }
-        if(getModel().getMonsters().size()==0 ){
-            getModel().removeBarrel(91,5);
-            pacmanController.step(game, action, time);
-            monsterController.step(game, action, time);
-        }
-        if(getModel().hitCoin()){
-            getModel().getBomberman().addPointsByCoin();
-            getModel().removeCoin(getModel().getBomberman().getPosition());
-        }
-        else if(getModel().getCoins().size()==0 && getModel().getLevel()==1){
-            getModel().setLevel(getModel().getLevel() +1);
-            game.setState(new WinLevelState(new MenuWinLevel(getModel().getBomberman().getPoints())));
-        }
-        else if(getModel().getCoins().size()==0 && getModel().getLevel()==2){
-            getModel().setLevel(1);
-            game.setState(new WinGameState(new MenuWinGame(getModel().getBomberman().getPoints())));
-        }
         else {
-            bombermanController.step(game, action, time);
+            pacmanController.step(game, action, time);
             monsterController.step(game, action, time);
         }
     }
 }
-*/

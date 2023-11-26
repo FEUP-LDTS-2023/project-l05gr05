@@ -1,5 +1,9 @@
 package com.aor.pacxon.model;
 
+import com.aor.pacxon.model.Pacman;
+import com.aor.pacxon.model.Monster;
+import com.aor.pacxon.model.Wall;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -8,32 +12,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LoaderArenaBuilder extends ArenaBuilder {
-    private final String level;
-    private final int points;
+    private final int level;
     private final List<String> lines;
 
-    public int getLevel() {
-        int newLevel = Integer.parseInt(level);
-        return newLevel;
-    }
-
-    public LoaderArenaBuilder(String level, int points) throws IOException {
+    public LoaderArenaBuilder(int level) throws IOException {
         this.level = level;
-        this.points = points;
-        URL resource = LoaderArenaBuilder.class.getResource("/levels/level"+ level  +".lvl");
+        URL resource = LoaderArenaBuilder.class.getResource("/levels/level" + level + ".lvl");
         BufferedReader br = new BufferedReader(new FileReader(resource.getFile()));
 
         lines = readLines(br);
     }
 
     private List<String> readLines(BufferedReader br) throws IOException {
-
         List<String> lines = new ArrayList<>();
         for (String line; (line = br.readLine()) != null; )
             lines.add(line);
         return lines;
     }
-
 
     @Override
     protected int getWidth() {
@@ -42,8 +37,6 @@ public class LoaderArenaBuilder extends ArenaBuilder {
             width = Math.max(width, line.length());
         return width;
     }
-
-
 
     @Override
     protected int getHeight() {
@@ -61,7 +54,6 @@ public class LoaderArenaBuilder extends ArenaBuilder {
         }
 
         return walls;
-
     }
 
     @Override
@@ -77,17 +69,13 @@ public class LoaderArenaBuilder extends ArenaBuilder {
         return monsters;
     }
 
-
     @Override
     protected Pacman createPacman() {
-
         for (int y = 0; y < lines.size(); y++) {
             String line = lines.get(y);
             for (int x = 0; x < line.length(); x++)
-                if (line.charAt(x) == 'B') return new Pacman(x, y);
+                if (line.charAt(x) == 'H') return new Pacman(x, y);
         }
         return null;
     }
-
-
 }

@@ -9,7 +9,6 @@ import com.aor.pacxon.Game;
 import java.io.IOException;
 
 public class MonsterController extends GameController {
-
     private long lastMovement;
 
     public MonsterController(Arena arena) {
@@ -17,7 +16,6 @@ public class MonsterController extends GameController {
 
         this.lastMovement = 0;
     }
-
 
     @Override
     public void step(Game game, GUI.ACTION action, long time) throws IOException {
@@ -29,7 +27,7 @@ public class MonsterController extends GameController {
     }
 
     private void moveMonster(Monster monster, Position position) {
-        if ((getModel().isEmpty(position)))  {
+        if (getModel().isEmpty(position)) {
             monster.setPosition(position);
             if (getModel().getPacman().getPosition().equals(position))
                 getModel().getPacman().decreaseEnergy();
