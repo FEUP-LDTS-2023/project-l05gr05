@@ -11,30 +11,31 @@ public class PacmanTest {
     @Test
     void testInitialization() {
         Pacman pacman = new Pacman(2, 3);
-        assertEquals(10, pacman.getEnergy());
+        assertEquals(3, pacman.getLives());
         assertEquals(new Position(2, 3), pacman.getPosition());
     }
 
 
     /* Testa se a energia é reduzida corretamente  */
     @Test
-    void testDecreaseEnergy() {
+    void testDecreaseLives() {
         Pacman pacman = new Pacman(2, 3);
-        pacman.decreaseEnergy();
-        assertEquals(9, pacman.getEnergy());
+        pacman.decreaseLives();
+        assertEquals(2, pacman.getLives());
     }
 
-    //ERRO
-    /* //esta se a energia respeita o seu limite mínimo de 0 (não pode ser negativa)
+
+    //testa se a energia respeita o seu limite mínimo de 0 (não pode ser negativa)
     @Test
-    void testEnergyDoesNotGoBelowZero() {
+    void testLivesDoNotGoBelowZero() {
         Pacman pacman = new Pacman(2, 3);
         for (int i = 0; i < 12; i++) {
-            pacman.decreaseEnergy();
+            pacman.decreaseLives();
         }
-        assertEquals(0, pacman.getEnergy());
+        assertEquals(0, pacman.getLives());
     }
-    */
+
+
 
     /* Testa se a posição é alterada  */
     @Test

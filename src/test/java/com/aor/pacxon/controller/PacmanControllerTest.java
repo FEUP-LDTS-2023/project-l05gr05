@@ -32,7 +32,7 @@ public class PacmanControllerTest {
         pacmanController.movePacmanLeft();
 
         verify(pacmanMock).setPosition(positionMock);
-        verify(pacmanMock, never()).decreaseEnergy();
+        verify(pacmanMock, never()).decreaseLives();
     }
     /**
     @Test

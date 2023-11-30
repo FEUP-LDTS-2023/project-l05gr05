@@ -29,7 +29,7 @@ public class PacmanController extends GameController {
     private void movePacman(Position position) {
         if (getModel().isEmpty(position)) {
             getModel().getPacman().setPosition(position);
-            if (getModel().isMonster(position)) getModel().getPacman().decreaseEnergy();
+            if (getModel().isMonster(position)) getModel().getPacman().decreaseLives();
         }
     }
 

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/GUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/gui/LanternaGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/MenuViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/viewer/MenuViewer.java" afterDir="false" />
-    </list>
+    <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="Created the folders for testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +68,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;liveschange&quot;,
     &quot;last_directory_selection&quot;: &quot;/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/aor/pacxon&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -98,9 +92,6 @@
       <recent name="C:\Users\ftmlo\Ambiente de Trabalho\FEUP\LDTS\project-l05gr05\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/images" />
-      <recent name="$PROJECT_DIR$/src/main/resources/fonts" />
-      <recent name="$PROJECT_DIR$/mockups" />
       <recent name="C:\Users\ftmlo\Ambiente de Trabalho\FEUP\LDTS\project-l05gr05\src\main\resources" />
       <recent name="$PROJECT_DIR$/main/src/main/java" />
     </key>
@@ -152,7 +143,7 @@
       <workItem from="1700933063486" duration="49000" />
       <workItem from="1700933154017" duration="1355000" />
       <workItem from="1700936648042" duration="3981000" />
-      <workItem from="1701362163685" duration="4247000" />
+      <workItem from="1701362840263" duration="3310000" />
     </task>
     <servers />
   </component>
@@ -169,5 +160,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created the folders for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the folders for testing" />
   </component>
 </project>
