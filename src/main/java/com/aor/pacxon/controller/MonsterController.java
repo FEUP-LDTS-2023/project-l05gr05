@@ -30,7 +30,7 @@ public class MonsterController extends GameController {
         if (getModel().isEmpty(position)) {
             monster.setPosition(position);
             if (getModel().getPacman().getPosition().equals(position))
-                getModel().getPacman().decreaseEnergy();
+                getModel().getPacman().decreaseLives();
         }
     }
 }

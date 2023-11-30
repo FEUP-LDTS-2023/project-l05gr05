@@ -22,7 +22,7 @@ public class GameViewer extends Viewer<Arena> {
         drawElements(gui, getModel().getWalls(), new WallViewer());
         drawElements(gui, getModel().getMonsters(), new MonsterViewer());
         drawElement(gui, getModel().getPacman(), new PacmanViewer());
-        gui.drawText(new Position(0, 0), "Energy: " + getModel().getPacman().getEnergy(), "#FFD700");
+        gui.drawText(new Position(0, 0), "Lives: " + getModel().getPacman().getLives(), "#FFD700");
     }
 
     private <T extends ObjectType> void drawElements(GUI gui, List<T> elements, ObjectViewer<T> viewer) {
