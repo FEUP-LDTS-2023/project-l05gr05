@@ -1,6 +1,7 @@
 package com.aor.pacxon.gui;
 
 import com.aor.pacxon.model.Position;
+import com.googlecode.lanterna.screen.Screen;
 
 import java.io.IOException;
 
