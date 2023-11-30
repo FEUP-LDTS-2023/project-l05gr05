@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.viewertest.MenuHTPViewerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-26T18:31:55" hostname="MBPdeBeatriz5.Home" time="0.004">
+<testsuite name="com.aor.pacxon.viewertest.MenuHTPViewerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-30T17:38:51" hostname="MacBook-Air-de-Francisca-9.local" time="0.019">
   <properties/>
-  <testcase name="testDrawElements_GoodLuckMessage()" classname="com.aor.pacxon.viewertest.MenuHTPViewerTest" time="0.001"/>
-  <testcase name="testDrawElements_ReturnToMainMenu()" classname="com.aor.pacxon.viewertest.MenuHTPViewerTest" time="0.001"/>
-  <testcase name="testDrawElements_IntroductionText()" classname="com.aor.pacxon.viewertest.MenuHTPViewerTest" time="0.002"/>
+  <testcase name="testDrawElements_GoodLuckMessage()" classname="com.aor.pacxon.viewertest.MenuHTPViewerTest" time="0.005"/>
+  <testcase name="testDrawElements_ReturnToMainMenu()" classname="com.aor.pacxon.viewertest.MenuHTPViewerTest" time="0.003"/>
+  <testcase name="testDrawElements_IntroductionText()" classname="com.aor.pacxon.viewertest.MenuHTPViewerTest" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

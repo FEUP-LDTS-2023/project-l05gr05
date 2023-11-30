@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.gui.LanternaGUITest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-11-26T18:23:50" hostname="AirdeFrancisca9" time="7.171">
+<testsuite name="com.aor.pacxon.gui.LanternaGUITest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-11-30T17:38:46" hostname="MacBook-Air-de-Francisca-9.local" time="4.39">
   <properties/>
-  <testcase name="testClear()" classname="com.aor.pacxon.gui.LanternaGUITest" time="5.121"/>
-  <testcase name="testClose()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.194"/>
-  <testcase name="testDrawPacman()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.772"/>
-  <testcase name="testDrawMonster()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.216"/>
-  <testcase name="testDrawWall()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.35"/>
-  <testcase name="testRefresh()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.246"/>
-  <testcase name="testInitialization()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.25"/>
+  <testcase name="testClear()" classname="com.aor.pacxon.gui.LanternaGUITest" time="2.413"/>
+  <testcase name="testClose()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.162"/>
+  <testcase name="testDrawPacman()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.314"/>
+  <testcase name="testDrawMonster()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.218"/>
+  <testcase name="testDrawWall()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.584"/>
+  <testcase name="testRefresh()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.436"/>
+  <testcase name="testInitialization()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.239"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

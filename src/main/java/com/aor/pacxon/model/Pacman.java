@@ -3,25 +3,27 @@ package com.aor.pacxon.model;
 import java.util.List;
 
 public class Pacman extends ObjectType {
-    private int energy;
+    private int lives;
 
     public Pacman(int x, int y) {
         super(x, y);
-        this.energy = 3;
+        this.lives = 3;
     }
 
     public boolean isDead(){
-        if (energy==0){
+        if (lives==0){
             return true;
         }
         return false;
     }
 
-    public void decreaseEnergy() {
-        this.energy--;
+    public void decreaseLives() {
+        if (this.lives > 0) {
+            this.lives--;
+        }
     }
 
-    public float getEnergy() {
-        return energy;
+    public float getLives() {
+        return lives;
     }
 }
