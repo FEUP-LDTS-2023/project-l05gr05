@@ -103,7 +103,7 @@ public class LanternaGUI implements GUI {
 
     @Override
     public void drawWall(Position position) {
-        drawCharacter(position.getX(), position.getY(), '■', "#3333FF");
+        drawCharacter(position.getX(), position.getY(), '\u25A0', "#3333FF");
     }
 
     @Override
