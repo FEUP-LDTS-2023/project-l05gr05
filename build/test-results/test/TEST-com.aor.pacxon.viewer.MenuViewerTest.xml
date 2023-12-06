@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.viewer.MenuViewerTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-12-06T20:52:17" hostname="LAPTOP-BCCILPH9" time="0.064">
+<testsuite name="com.aor.pacxon.viewer.MenuViewerTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2023-12-06T21:14:16" hostname="LAPTOP-BCCILPH9" time="0.047">
   <properties/>
-  <testcase name="testDrawElements_MenuEntries()" classname="com.aor.pacxon.viewer.MenuViewerTest" time="0.06"/>
+  <testcase name="testDrawElements_MenuEntries()" classname="com.aor.pacxon.viewer.MenuViewerTest" time="0.043"/>
   <testcase name="testDrawElements_Title()" classname="com.aor.pacxon.viewer.MenuViewerTest" time="0.004">
     <failure message="Argument(s) are different! Wanted:&#10;gUI.drawText(&#10;    com.aor.pacxon.model.Position@461,&#10;    &quot;PACXON&quot;,&#10;    &quot;#FFA500&quot;&#10;);&#10;-&gt; at com.aor.pacxon.viewer.MenuViewerTest.testDrawElements_Title(MenuViewerTest.java:27)&#10;Actual invocations have different arguments:&#10;gUI.drawText(&#10;    com.aor.pacxon.model.Position@461,&#10;    &quot;PACXON&quot;,&#10;    &quot;#FFD700&quot;&#10;);&#10;-&gt; at com.aor.pacxon.viewer.MenuViewer.drawElements(MenuViewer.java:16)&#10;" type="org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent">Argument(s) are different! Wanted:
 gUI.drawText(

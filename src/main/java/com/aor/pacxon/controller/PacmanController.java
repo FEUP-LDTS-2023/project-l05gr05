@@ -27,11 +27,20 @@ public class PacmanController extends GameController {
     }
 
     private void movePacman(Position position) {
-        // Esta posição está vazia ou é uma parede (não vazia)?
+        Arena arena = getModel();
+
+        // Adiciona a posição ao rasto se for vazia (não é uma parede)
+        if (arena.isEmpty(position)) {
+            arena.addToTrail(position);
+        } else {
+            // Se atingir uma parede (posição não vazia), aciona o preenchimento da área
+            if (!arena.getTrail().isEmpty()) {
+                arena.fillArea(arena.getTrail());
+                arena.clearTrail();
+            }
+        }
         boolean canMoveToPosition = getModel().isEmpty(position) || !getModel().isEmpty(position);
 
-        // Verifica se a posição está dentro dos limites do mapa, usando o tamanho do arquivo de nível.
-        // Você precisará implementar os métodos getLevelWidth e getLevelHeight.
         boolean withinBounds = position.getX() >= 0 && position.getX() < getModel().getWidth() &&
                 position.getY() >= 0 && position.getY() < getModel().getHeight();
 

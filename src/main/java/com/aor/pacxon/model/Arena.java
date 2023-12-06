@@ -5,13 +5,14 @@ import com.aor.pacxon.model.Pacman;
 import com.aor.pacxon.model.Monster;
 import com.aor.pacxon.model.Wall;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Arena {
     private final int width;
     private final int height;
     private Pacman pacman;
-
+    private List<Position> trail;
 
     private List<Monster> monsters;
     private List<Wall> walls;
@@ -19,7 +20,47 @@ public class Arena {
     public Arena(int width, int height) {
         this.width = width;
         this.height = height;
+        this.trail = new ArrayList<>();
+        this.walls = new ArrayList<>();
     }
+
+    public void addToTrail(Position position) {
+        if (isEmpty(position)) {
+            trail.add(position);
+        }
+    }
+    public List<Position> getTrail() {
+        return trail;
+    }
+    public void clearTrail() {
+        trail.clear();
+    }
+
+    public void fillArea(List<Position> trail) {
+        // Implementação simplificada do algoritmo de preenchimento de área
+        for (Position pos : trail) {
+            // Suponha que temos um método para adicionar paredes
+            addWallAtPosition(pos);
+        }
+    }
+
+    private void addWallAtPosition(Position position) {
+        if (isEmpty(position)) {
+            walls.add(new Wall(position.getX(), position.getY()));
+        }
+    }
+
+    public void checkCollisionsWithTrail() {
+        for (Monster monster : monsters) {
+            if (trail.contains(monster.getPosition())) {
+                // Pac-Man perde uma vida e o rasto é limpo
+                pacman.decreaseLives();
+                clearTrail();
+                // Reinicie a posição do Pac-Man, se necessário
+            }
+        }
+    }
+
     public int getWidth() {
         return width;
     }
