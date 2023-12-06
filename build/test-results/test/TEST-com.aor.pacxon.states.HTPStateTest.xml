@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.states.HTPStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-04T16:57:32" hostname="LAPTOP-BCCILPH9" time="0.001">
+<testsuite name="com.aor.pacxon.states.HTPStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-06T20:52:17" hostname="LAPTOP-BCCILPH9" time="0.0">
   <properties/>
   <testcase name="testGetController()" classname="com.aor.pacxon.states.HTPStateTest" time="0.0"/>
   <testcase name="testGetViewer()" classname="com.aor.pacxon.states.HTPStateTest" time="0.0"/>

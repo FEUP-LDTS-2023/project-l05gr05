@@ -27,11 +27,23 @@ public class PacmanController extends GameController {
     }
 
     private void movePacman(Position position) {
-        if (getModel().isEmpty(position)) {
+        // Esta posição está vazia ou é uma parede (não vazia)?
+        boolean canMoveToPosition = getModel().isEmpty(position) || !getModel().isEmpty(position);
+
+        // Verifica se a posição está dentro dos limites do mapa, usando o tamanho do arquivo de nível.
+        // Você precisará implementar os métodos getLevelWidth e getLevelHeight.
+        boolean withinBounds = position.getX() >= 0 && position.getX() < getModel().getWidth() &&
+                position.getY() >= 0 && position.getY() < getModel().getHeight();
+
+        if (withinBounds && canMoveToPosition) {
             getModel().getPacman().setPosition(position);
-            if (getModel().isMonster(position)) getModel().getPacman().decreaseLives();
+
+            if (getModel().isMonster(position)) {
+                getModel().getPacman().decreaseLives();
+            }
         }
     }
+
 
     @Override
     public void step(Game game, GUI.ACTION action, long time) {

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="Created the folders for testing" />
+    <list default="true" id="3614d2b4-eac6-4f2c-a07b-1431bdf2cda6" name="Changes" comment="Created the folders for testing">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_11_2023__6_39PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_11_2023__6_39PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

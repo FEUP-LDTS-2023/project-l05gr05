@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.controller.MenuHTPControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-04T16:57:30" hostname="LAPTOP-BCCILPH9" time="0.016">
+<testsuite name="com.aor.pacxon.controller.MenuHTPControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-06T20:52:17" hostname="LAPTOP-BCCILPH9" time="0.015">
   <properties/>
-  <testcase name="testStep_QuitBackToMenuAction()" classname="com.aor.pacxon.controller.MenuHTPControllerTest" time="0.014"/>
+  <testcase name="testStep_QuitBackToMenuAction()" classname="com.aor.pacxon.controller.MenuHTPControllerTest" time="0.013"/>
   <testcase name="testStep_SelectBackToMenuAction()" classname="com.aor.pacxon.controller.MenuHTPControllerTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

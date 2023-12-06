@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.viewer.WallViewerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-04T16:57:32" hostname="LAPTOP-BCCILPH9" time="0.003">
+<testsuite name="com.aor.pacxon.viewer.WallViewerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-06T20:52:17" hostname="LAPTOP-BCCILPH9" time="0.002">
   <properties/>
-  <testcase name="testDraw()" classname="com.aor.pacxon.viewer.WallViewerTest" time="0.003"/>
+  <testcase name="testDraw()" classname="com.aor.pacxon.viewer.WallViewerTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
