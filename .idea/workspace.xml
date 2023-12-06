@@ -8,6 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/controller/PacmanController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Arena.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Arena.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/LoaderArenaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/RandomArenaBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/RandomArenaBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/pacxon/model/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aor/pacxon/model/ArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aor/pacxon/model/ArenaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aor/pacxon/model/WallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aor/pacxon/model/WallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aor/pacxon/viewer/WallViewerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aor/pacxon/viewer/WallViewerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

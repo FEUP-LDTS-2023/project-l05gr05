@@ -15,7 +15,7 @@ class ArenaTest {
         Arena arena = new Arena(5, 5);
 
         List<Wall> walls = new ArrayList<>();
-        walls.add(new Wall(2, 2));
+        walls.add(new Wall(2, 2, false));
         arena.setWalls(walls);
 
         assertTrue(arena.isEmpty(new Position(1, 1))); // Posição vazia
@@ -53,7 +53,7 @@ class ArenaTest {
         assertEquals(monsters, arena.getMonsters());
 
         List<Wall> walls = new ArrayList<>();
-        walls.add(new Wall(2, 2));
+        walls.add(new Wall(2, 2, false));
         arena.setWalls(walls);
         assertEquals(walls, arena.getWalls());
     }

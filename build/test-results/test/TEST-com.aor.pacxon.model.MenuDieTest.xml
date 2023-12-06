@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.model.MenuDieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-06T21:14:16" hostname="LAPTOP-BCCILPH9" time="0.004">
+<testsuite name="com.aor.pacxon.model.MenuDieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-06T21:58:39" hostname="LAPTOP-BCCILPH9" time="0.002">
   <properties/>
-  <testcase name="testCycleEntries()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
-  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
+  <testcase name="testCycleEntries()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
+  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
   <testcase name="testIsSelected()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
   <testcase name="testInitialization()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
   <testcase name="testPreviousEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>

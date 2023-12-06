@@ -38,13 +38,13 @@ public class RandomArenaBuilder extends ArenaBuilder {
         List<Wall> walls = new ArrayList<>();
 
         for (int x = 0; x < width; x++) {
-            walls.add(new Wall(x, 0));
-            walls.add(new Wall(x, height - 1));
+            walls.add(new Wall(x, 0, false));
+            walls.add(new Wall(x, height - 1, false));
         }
 
         for (int y = 1; y < height - 1; y++) {
-            walls.add(new Wall(0, y));
-            walls.add(new Wall(width - 1, y));
+            walls.add(new Wall(0, y, false));
+            walls.add(new Wall(width - 1, y, false));
         }
 
         return walls;

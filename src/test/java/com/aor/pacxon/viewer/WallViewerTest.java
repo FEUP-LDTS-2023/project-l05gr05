@@ -12,7 +12,7 @@ public class WallViewerTest {
     @Test
     public void testDraw() {
         Position position = new Position(10, 10);
-        Wall wall = new Wall(10, 10);
+        Wall wall = new Wall(10, 10, false);
         WallViewer wallViewer = new WallViewer();
         GUI gui = mock(GUI.class);
         wallViewer.draw(wall, gui);

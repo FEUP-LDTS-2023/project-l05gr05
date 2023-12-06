@@ -29,13 +29,11 @@ public class PacmanController extends GameController {
     private void movePacman(Position position) {
         Arena arena = getModel();
 
-        // Adiciona a posição ao rasto se for vazia (não é uma parede)
         if (arena.isEmpty(position)) {
             arena.addToTrail(position);
         } else {
-            // Se atingir uma parede (posição não vazia), aciona o preenchimento da área
             if (!arena.getTrail().isEmpty()) {
-                arena.fillArea(arena.getTrail());
+                arena.fillArea(arena.getTrail().get(0));
                 arena.clearTrail();
             }
         }

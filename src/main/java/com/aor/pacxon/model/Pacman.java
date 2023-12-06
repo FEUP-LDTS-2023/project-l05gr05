@@ -17,6 +17,7 @@ public class Pacman extends ObjectType {
         return false;
     }
 
+
     public void decreaseLives() {
         if (this.lives > 0) {
             this.lives--;
@@ -26,4 +27,5 @@ public class Pacman extends ObjectType {
     public float getLives() {
         return lives;
     }
+
 }
