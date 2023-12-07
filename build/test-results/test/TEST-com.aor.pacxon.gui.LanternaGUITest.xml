@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.gui.LanternaGUITest" tests="7" skipped="0" failures="3" errors="0" timestamp="2023-12-06T21:58:38" hostname="LAPTOP-BCCILPH9" time="1.099">
+<testsuite name="com.aor.pacxon.gui.LanternaGUITest" tests="7" skipped="0" failures="3" errors="0" timestamp="2023-12-07T17:31:42" hostname="LAPTOP-BCCILPH9" time="1.071">
   <properties/>
-  <testcase name="testClear()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.649"/>
-  <testcase name="testClose()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.052"/>
-  <testcase name="testDrawPacman()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.122">
+  <testcase name="testClear()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.615"/>
+  <testcase name="testClose()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.076"/>
+  <testcase name="testDrawPacman()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.159">
     <failure message="Argument(s) are different! Wanted:&#10;textGraphics.putString(&#10;    5,&#10;    6,&#10;    &quot;H&quot;&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUITest.testDrawPacman(LanternaGUITest.java:78)&#10;Actual invocations have different arguments:&#10;textGraphics.setForegroundColor(&#10;    {RGB:255,215,0}&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUI.drawCharacter(LanternaGUI.java:123)&#10;textGraphics.putString(&#10;    5,&#10;    6,&#10;    &quot;C&quot;&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUI.drawCharacter(LanternaGUI.java:124)&#10;" type="org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent">Argument(s) are different! Wanted:
 textGraphics.putString(
     5,
@@ -110,7 +110,7 @@ textGraphics.putString(
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testDrawMonster()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.052">
+  <testcase name="testDrawMonster()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.047">
     <failure message="Argument(s) are different! Wanted:&#10;textGraphics.putString(&#10;    15,&#10;    21,&#10;    &quot;@&quot;&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUITest.testDrawMonster(LanternaGUITest.java:110)&#10;Actual invocations have different arguments:&#10;textGraphics.setForegroundColor(&#10;    {RGB:204,0,0}&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUI.drawCharacter(LanternaGUI.java:123)&#10;textGraphics.putString(&#10;    15,&#10;    21,&#10;    &quot;M&quot;&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUI.drawCharacter(LanternaGUI.java:124)&#10;" type="org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent">Argument(s) are different! Wanted:
 textGraphics.putString(
     15,
@@ -217,7 +217,7 @@ textGraphics.putString(
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testDrawWall()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.067">
+  <testcase name="testDrawWall()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.05">
     <failure message="Argument(s) are different! Wanted:&#10;textGraphics.putString(&#10;    10,&#10;    11,&#10;    &quot;#&quot;&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUITest.testDrawWall(LanternaGUITest.java:94)&#10;Actual invocations have different arguments:&#10;textGraphics.setForegroundColor(&#10;    {RGB:51,51,255}&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUI.drawCharacter(LanternaGUI.java:123)&#10;textGraphics.putString(&#10;    10,&#10;    11,&#10;    &quot;■&quot;&#10;);&#10;-&gt; at com.aor.pacxon.gui.LanternaGUI.drawCharacter(LanternaGUI.java:124)&#10;" type="org.mockito.exceptions.verification.opentest4j.ArgumentsAreDifferent">Argument(s) are different! Wanted:
 textGraphics.putString(
     10,
@@ -324,8 +324,8 @@ textGraphics.putString(
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="testRefresh()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.079"/>
-  <testcase name="testInitialization()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.072"/>
+  <testcase name="testRefresh()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.055"/>
+  <testcase name="testInitialization()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.064"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

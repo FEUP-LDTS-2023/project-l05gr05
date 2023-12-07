@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.controller.PacmanControllerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-12-06T21:58:38" hostname="LAPTOP-BCCILPH9" time="0.487">
+<testsuite name="com.aor.pacxon.controller.PacmanControllerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-12-07T17:31:42" hostname="LAPTOP-BCCILPH9" time="0.499">
   <properties/>
-  <testcase name="testMovePacmanLeft_EmptyPosition()" classname="com.aor.pacxon.controller.PacmanControllerTest" time="0.487">
-    <failure message="Wanted but not invoked:&#10;pacman.setPosition(&#10;    Mock for Position, hashCode: 168468389&#10;);&#10;-&gt; at com.aor.pacxon.controller.PacmanControllerTest.testMovePacmanLeft_EmptyPosition(PacmanControllerTest.java:34)&#10;&#10;However, there was exactly 1 interaction with this mock:&#10;pacman.getPosition();&#10;-&gt; at com.aor.pacxon.controller.PacmanController.movePacmanLeft(PacmanController.java:14)&#10;&#10;" type="org.mockito.exceptions.verification.WantedButNotInvoked">Wanted but not invoked:
+  <testcase name="testMovePacmanLeft_EmptyPosition()" classname="com.aor.pacxon.controller.PacmanControllerTest" time="0.499">
+    <failure message="Wanted but not invoked:&#10;pacman.setPosition(&#10;    Mock for Position, hashCode: 719182854&#10;);&#10;-&gt; at com.aor.pacxon.controller.PacmanControllerTest.testMovePacmanLeft_EmptyPosition(PacmanControllerTest.java:34)&#10;&#10;However, there was exactly 1 interaction with this mock:&#10;pacman.getPosition();&#10;-&gt; at com.aor.pacxon.controller.PacmanController.movePacmanLeft(PacmanController.java:14)&#10;&#10;" type="org.mockito.exceptions.verification.WantedButNotInvoked">Wanted but not invoked:
 pacman.setPosition(
-    Mock for Position, hashCode: 168468389
+    Mock for Position, hashCode: 719182854
 );
 -&gt; at com.aor.pacxon.controller.PacmanControllerTest.testMovePacmanLeft_EmptyPosition(PacmanControllerTest.java:34)
 

@@ -9,7 +9,7 @@ public class MenuDie {
     private int currentEntry = 0;
 
     public MenuDie() {
-        this.entries = Arrays.asList("BACK TO MENU", "QUIT");
+        this.entries = Arrays.asList("RESTART LEVEL","BACK TO MENU", "QUIT");
     }
 
     public void nextEntry() {
@@ -40,5 +40,9 @@ public class MenuDie {
 
     public int getNumberEntries() {
         return entries.size();
+    }
+
+    public boolean isSelectedRestartLevel() {
+        return currentEntry == 0;
     }
 }

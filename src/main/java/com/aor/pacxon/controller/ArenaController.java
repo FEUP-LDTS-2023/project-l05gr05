@@ -2,6 +2,7 @@ package com.aor.pacxon.controller;
 
 import com.aor.pacxon.gui.GUI;
 import com.aor.pacxon.model.*;
+import com.aor.pacxon.states.DieState;
 import com.aor.pacxon.states.MenuState;
 import com.aor.pacxon.Game;
 import com.aor.pacxon.states.WinGameState;
@@ -22,7 +23,7 @@ public class ArenaController extends GameController {
 
     public void step(Game game, GUI.ACTION action, long time) throws IOException {
         if (action == GUI.ACTION.QUIT || getModel().getPacman().getLives() == 0)
-            game.setState(new MenuState(new Menu()));
+            game.setState(new DieState(new MenuDie()));
         else {
             pacmanController.step(game, action, time);
             monsterController.step(game, action, time);

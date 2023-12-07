@@ -2,10 +2,7 @@ package com.aor.pacxon.controller;
 
 import com.aor.pacxon.gui.GUI;
 import com.aor.pacxon.Game;
-import com.aor.pacxon.model.LoaderArenaBuilder;
-import com.aor.pacxon.model.Menu;
-import com.aor.pacxon.model.MenuControls;
-import com.aor.pacxon.model.MenuHTP;
+import com.aor.pacxon.model.*;
 import com.aor.pacxon.states.ControlsState;
 import com.aor.pacxon.states.GameState;
 import com.aor.pacxon.states.HTPState;

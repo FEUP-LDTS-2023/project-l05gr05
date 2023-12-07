@@ -10,7 +10,7 @@ public class MenuWinGame {
 
     public MenuWinGame(int points) {
         this.points = points;
-        this.entries = Arrays.asList( "LEVEL 1", "BACK TO MENU");
+        this.entries = Arrays.asList("RESTART LEVEL" ,"LEVEL 1", "BACK TO MENU");
     }
 
     public void nextEntry() {
@@ -44,5 +44,9 @@ public class MenuWinGame {
 
     public int getPoints() {
         return points;
+    }
+
+    public boolean isSelectedRestartLevel() {
+        return currentEntry == 0;
     }
 }

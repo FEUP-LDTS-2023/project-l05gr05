@@ -5,10 +5,7 @@ import com.aor.pacxon.model.Pacman;
 import com.aor.pacxon.model.Monster;
 import com.aor.pacxon.model.Wall;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Arena {
     private final int width;
@@ -40,7 +37,10 @@ public class Arena {
                 wall.makePermanent();
             }
         }
+        fillInternalAreas();
     }
+
+
     public void addToTrail(Position position) {
         if (isEmpty(position)) {
             trail.add(position);
@@ -54,15 +54,77 @@ public class Arena {
         trail.clear();
     }
 
-    public void fillArea(Position start) {
-        if (withinMapBounds(start) && isEmpty(start) && !filledPositions.contains(start)) {
-            filledPositions.add(start);
-            setWall(start);
+    public void fillInternalAreas() {
+        List<Position> internalStartPoints = findInternalStartPoints();
+        for (Position start : internalStartPoints) {
+            fillArea(start);
+        }
+    }
 
-            fillArea(new Position(start.getX() + 1, start.getY())); // Direita
-            fillArea(new Position(start.getX() - 1, start.getY())); // Esquerda
-            fillArea(new Position(start.getX(), start.getY() + 1)); // Abaixo
-            fillArea(new Position(start.getX(), start.getY() - 1)); // Acima
+    public void fillArea(Position start) {
+        Stack<Position> stack = new Stack<>();
+        stack.push(start);
+
+        while (!stack.isEmpty()) {
+            Position current = stack.pop();
+
+            if (withinMapBounds(current) && isEmpty(current) && !filledPositions.contains(current) && !isMonster(current)) {
+                filledPositions.add(current);
+                setWall(current);
+
+                stack.push(new Position(current.getX() + 1, current.getY())); // Direita
+                stack.push(new Position(current.getX() - 1, current.getY())); // Esquerda
+                stack.push(new Position(current.getX(), current.getY() + 1)); // Abaixo
+                stack.push(new Position(current.getX(), current.getY() - 1)); // Acima
+            }
+        }
+    }
+
+    private List<Position> findInternalStartPoints() {
+        List<Position> startPoints = new ArrayList<>();
+        boolean[][] visited = new boolean[width][height];
+
+        // Primeiro, marque todos os espaços acessíveis a partir das bordas como visitados
+        for (int x = 0; x < width; x++) {
+            bfsMarkVisited(new Position(x, 0), visited); // Linha superior
+            bfsMarkVisited(new Position(x, height - 1), visited); // Linha inferior
+        }
+        for (int y = 0; y < height; y++) {
+            bfsMarkVisited(new Position(0, y), visited); // Coluna esquerda
+            bfsMarkVisited(new Position(width - 1, y), visited); // Coluna direita
+        }
+
+        // Agora, encontre os espaços não visitados que são internos
+        for (int x = 1; x < width - 1; x++) {
+            for (int y = 1; y < height - 1; y++) {
+                Position pos = new Position(x, y);
+                if (!visited[x][y] && isEmpty(pos)) {
+                    startPoints.add(pos);
+                    bfsMarkVisited(pos, visited); // Marque a área interna como visitada
+                }
+            }
+        }
+
+        return startPoints;
+    }
+
+    private void bfsMarkVisited(Position start, boolean[][] visited) {
+        Queue<Position> queue = new LinkedList<>();
+        queue.add(start);
+
+        while (!queue.isEmpty()) {
+            Position current = queue.poll();
+
+            if (!withinMapBounds(current) || visited[current.getX()][current.getY()] || !isEmpty(current)) {
+                continue;
+            }
+
+            visited[current.getX()][current.getY()] = true;
+
+            queue.add(new Position(current.getX() + 1, current.getY())); // Direita
+            queue.add(new Position(current.getX() - 1, current.getY())); // Esquerda
+            queue.add(new Position(current.getX(), current.getY() + 1)); // Abaixo
+            queue.add(new Position(current.getX(), current.getY() - 1)); // Acima
         }
     }
 

@@ -2,8 +2,10 @@ package com.aor.pacxon.controller;
 
 import com.aor.pacxon.Game;
 import com.aor.pacxon.gui.GUI;
+import com.aor.pacxon.model.LoaderArenaBuilder;
 import com.aor.pacxon.model.Menu;
 import com.aor.pacxon.model.MenuDie;
+import com.aor.pacxon.states.GameState;
 import com.aor.pacxon.states.MenuState;
 
 import java.io.IOException;
@@ -23,6 +25,7 @@ public class MenuDieController  extends Controller<MenuDie> {
                 getModel().nextEntry();
                 break;
             case SELECT:
+                if (getModel().isSelectedRestartLevel()) game.setState(new GameState(new LoaderArenaBuilder(1).createArena()));
                 if (getModel().isSelectedBackToMenu()) game.setState(new MenuState(new Menu()));
                 if (getModel().isSelectedExit()) game.setState(null);
         }

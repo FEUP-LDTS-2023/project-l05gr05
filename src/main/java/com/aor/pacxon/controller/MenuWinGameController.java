@@ -28,6 +28,7 @@ public class MenuWinGameController extends Controller<MenuWinGame>{
                 getModel().nextEntry();
                 break;
             case SELECT:
+                if (getModel().isSelectedRestartLevel()) game.setState(new GameState(new LoaderArenaBuilder(1).createArena()));
                 if (getModel().isSelectedNextLevel()) game.setState(new GameState(new LoaderArenaBuilder(1).createArena()));
                 if (getModel().isSelectedBackToMenu()) game.setState(new MenuState(new Menu()));
         }
