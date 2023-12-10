@@ -54,6 +54,8 @@ public class PacmanController extends GameController {
 
     @Override
     public void step(Game game, GUI.ACTION action, long time) {
+        if (getModel().getPacman().isDead())
+            game.setState(new DieState((new MenuDie())));
         if (action == GUI.ACTION.UP) movePacmanUp();
         if (action == GUI.ACTION.RIGHT) movePacmanRight();
         if (action == GUI.ACTION.DOWN) movePacmanDown();

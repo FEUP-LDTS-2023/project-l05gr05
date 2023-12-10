@@ -135,6 +135,15 @@ public class LanternaGUI implements GUI {
     }
 
     @Override
+    public void drawCoin(Position position) {
+    int y = position.getY();
+    int x = position.getX();
+    String color = "#FFD700";
+    char c = '*';
+    drawCharacter(x, y, c,color);
+    }
+
+    @Override
     public void close() throws IOException {
         screen.close();
     }

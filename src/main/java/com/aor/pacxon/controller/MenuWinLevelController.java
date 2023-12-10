@@ -28,7 +28,7 @@ public class MenuWinLevelController extends Controller<MenuWinLevel>{
                 break;
             case SELECT:
                 if (getModel().isSelectedNextLevel()){
-                    game.setState(new GameState(new LoaderArenaBuilder(2).createArena()));
+                    game.setState(new GameState(new LoaderArenaBuilder("2", getModel().getPoints()).createArena()));
                 }
                 if (getModel().isSelectedBackToMenu()) game.setState(new MenuState(new Menu()));
         }

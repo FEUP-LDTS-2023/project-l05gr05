@@ -5,6 +5,7 @@ import java.util.List;
 public class Pacman extends ObjectType {
     private int lives;
 
+    private int points;
     public Pacman(int x, int y) {
         super(x, y);
         this.lives = 3;
@@ -28,4 +29,13 @@ public class Pacman extends ObjectType {
         return lives;
     }
 
+    public void setLives(int lives) {this.lives = lives;}
+
+    public void addPointsByCoin(){
+        this.points = this.points + 20;
+    }
+
+    public void setPoints(int points) {this.points = points;}
+
+    public int getPoints() {return points;}
 }

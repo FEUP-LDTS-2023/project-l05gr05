@@ -13,7 +13,9 @@ import java.util.Set;
 public class Arena {
     private final int width;
     private final int height;
+    private int level;
     private Pacman pacman;
+    private List<Coin> coins;
     private List<Position> trail;
     private Set<Position> filledPositions;
 
@@ -23,10 +25,14 @@ public class Arena {
     public Arena(int width, int height) {
         this.width = width;
         this.height = height;
+        this.level = level;
         this.trail = new ArrayList<>();
         this.walls = new ArrayList<>();
         this.filledPositions = new HashSet<>();
     }
+
+    public void setCoin(List<Coin> coins) {this.coins = coins;}
+    public List<Coin> getCoins() {return coins;}
 
     public class TemporaryWall extends Wall {
         public TemporaryWall(Position position) {
@@ -122,5 +128,29 @@ public class Arena {
             if (monster.getPosition().equals(position))
                 return true;
         return false;
+    }
+
+    public boolean hitCoin(){
+        for (Coin coin : coins){
+            if(coin.getPosition().equals(getPacman().getPosition())){
+                coins.remove(coin);
+                return true;
+            }
+        }
+        return false;
+    }
+    public void removeCoin(Position position) {
+        for(Coin coin: coins){
+            if(coin.getPosition().equals(position)){
+                coins.remove(coin);
+            }
+
+        }
+    }
+    public void setLevel(int level) {
+        this.level = level;
+    }
+    public int getLevel(){
+        return level;
     }
 }

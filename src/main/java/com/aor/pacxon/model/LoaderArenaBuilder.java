@@ -10,11 +10,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LoaderArenaBuilder extends ArenaBuilder {
-    private final int level;
+    private final String level;
+
+    private final int points;
     private final List<String> lines;
 
-    public LoaderArenaBuilder(int level) throws IOException {
+    public int getLevel() {
+        int newLevel = Integer.parseInt(level);
+        return newLevel;
+    }
+
+    public LoaderArenaBuilder(String level, int points) throws IOException {
         this.level = level;
+        this.points = points;
         InputStream is = LoaderArenaBuilder.class.getResourceAsStream("/levels/level" + level + ".lvl");
         if (is == null) {
             throw new IOException("Resource file not found: /levels/level" + level + ".lvl");
@@ -30,6 +38,11 @@ public class LoaderArenaBuilder extends ArenaBuilder {
         return lines;
     }
 
+
+    @Override
+    protected int getPoints(){
+        return points;
+    }
     @Override
     protected int getWidth() {
         int width = 0;
@@ -77,5 +90,18 @@ public class LoaderArenaBuilder extends ArenaBuilder {
                 if (line.charAt(x) == 'H') return new Pacman(x, y);
         }
         return null;
+    }
+
+    @Override
+    protected List<Coin> createCoin(){
+        List<Coin> coins = new ArrayList<>();
+
+        for (int y = 0; y < lines.size(); y++){
+            String line = lines.get(y);
+            for (int x = 0; x < line.length(); x++)
+                if (line.charAt(x) == 'C') coins.add(new Coin(x, y));
+        }
+
+        return coins;
     }
 }

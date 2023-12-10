@@ -6,6 +6,7 @@ import com.googlecode.lanterna.screen.Screen;
 import java.io.IOException;
 
 public interface GUI {
+    void drawCoin(Position position);
     ACTION getNextAction() throws IOException;
 
     void drawPacman(Position position);

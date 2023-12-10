@@ -34,7 +34,7 @@ public class MenuController extends Controller<Menu> {
                 if (getModel().isSelectedExit()) game.setState(null);
                 if(getModel().isSelectedControls()) game.setState(new ControlsState(new MenuControls()));
                 if (getModel().isSelectedHTP()) game.setState(new HTPState(new MenuHTP()));
-                if (getModel().isSelectedStart()) game.setState(new GameState(new LoaderArenaBuilder(1).createArena()));
+                if (getModel().isSelectedStart()) game.setState(new GameState(new LoaderArenaBuilder("1", 0).createArena()));
         }
     }
 }
