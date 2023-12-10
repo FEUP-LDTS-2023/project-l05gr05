@@ -31,7 +31,7 @@ public class ArenaController extends GameController {
             getModel().getPacman().addPointsByCoin();
             getModel().removeCoin(getModel().getPacman().getPosition());
         }
-        if (getModel().getCoins().size() == 0) {
+        if (getModel().calculateFillPercentage() >= 80.0) {
             if (getModel().getLevel() == 1) {
                 getModel().setLevel(getModel().getLevel() +1);
                 game.setState(new WinLevelState(new MenuWinLevel(getModel().getPacman().getPoints())));

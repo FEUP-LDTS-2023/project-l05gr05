@@ -153,4 +153,19 @@ public class Arena {
     public int getLevel(){
         return level;
     }
+
+    public float calculateFillPercentage(){
+        int totalTiles = width * height;
+        int filledTiles = 0;
+
+        for(int y = 0; y < height; y++){
+            for(int x = 0; x < width; x++){
+                Position position = new Position(x, y);
+                if(!isEmpty(position)){
+                    filledTiles++;
+                }
+            }
+        }
+        return ((float) filledTiles / totalTiles) * 100;
+    }
 }

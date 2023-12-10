@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.model.MenuDieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-10T13:53:07" hostname="LAPTOP-BCCILPH9" time="0.003">
+<testsuite name="com.aor.pacxon.model.MenuDieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-10T14:02:07" hostname="LAPTOP-BCCILPH9" time="0.002">
   <properties/>
-  <testcase name="testCycleEntries()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
-  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
+  <testcase name="testCycleEntries()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
+  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
   <testcase name="testIsSelected()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
-  <testcase name="testInitialization()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
+  <testcase name="testInitialization()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
   <testcase name="testPreviousEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
   <testcase name="testNextEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
