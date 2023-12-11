@@ -14,9 +14,12 @@ public class Game {
     private final LanternaGUI gui;
     private State state;
 
+    private final MusicSound gameMusic;
+
     public Game() throws FontFormatException, IOException, URISyntaxException {
         this.gui = new LanternaGUI(100, 40);
         this.state = new MenuState(new Menu());
+        this.gameMusic = new MusicSound("musicfile path");
     }
 
     public static void main(String[] args) throws IOException, FontFormatException, URISyntaxException {
@@ -28,6 +31,7 @@ public class Game {
     }
 
     private void start() throws IOException {
+        gameMusic.play();
         int FPS = 10;
         int frameTime = 1000 / FPS;
 
@@ -46,6 +50,7 @@ public class Game {
         }
 
         gui.close();
+        gameMusic.stop();
     }
 }
 

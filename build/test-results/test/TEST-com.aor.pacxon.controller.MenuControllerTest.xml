@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.controller.MenuControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-10T14:02:07" hostname="LAPTOP-BCCILPH9" time="0.046">
+<testsuite name="com.aor.pacxon.controller.MenuControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-11T21:12:03" hostname="AirdeFrancisca9.lan" time="0.356">
   <properties/>
-  <testcase name="testStep_SelectExitAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.011"/>
-  <testcase name="testStep_SelectControlsAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.004"/>
-  <testcase name="testStep_UnrecognizedAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.001"/>
-  <testcase name="testStep_SelectStartAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.023"/>
-  <testcase name="testStep_SelectHTPAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.004"/>
+  <testcase name="testStep_SelectExitAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.051"/>
+  <testcase name="testStep_SelectControlsAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.015"/>
+  <testcase name="testStep_UnrecognizedAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.004"/>
+  <testcase name="testStep_SelectStartAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.264"/>
+  <testcase name="testStep_SelectHTPAction()" classname="com.aor.pacxon.controller.MenuControllerTest" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

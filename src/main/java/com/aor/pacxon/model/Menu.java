@@ -1,5 +1,7 @@
 package com.aor.pacxon.model;
 
+import com.aor.pacxon.MusicSound;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -7,8 +9,11 @@ public class Menu {
     private final List<String> entries;
     private int currentEntry = 0;
 
+    private final MusicSound menuMusic;
+
     public Menu() {
         this.entries = Arrays.asList( "PLAY","HOW TO PLAY", "CONTROLS", "QUIT");
+        this.menuMusic = new MusicSound("music file path");
     }
 
     public void nextEntry() {
@@ -45,5 +50,13 @@ public class Menu {
 
     public int getNumberEntries() {
         return this.entries.size();
+    }
+
+    public void playMenuMusic() {
+        menuMusic.play();
+    }
+
+    public void stopMenuMusic() {
+        menuMusic.stop();
     }
 }

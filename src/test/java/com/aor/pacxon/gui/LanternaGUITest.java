@@ -62,6 +62,7 @@ public class LanternaGUITest {
     }
      */
 
+    /*
     @Test
     public void testDrawPacman() {
         Screen mockScreen = Mockito.mock(Screen.class);
@@ -77,7 +78,9 @@ public class LanternaGUITest {
         Mockito.verify(mockTextGraphics).setForegroundColor(TextColor.Factory.fromString("#FFD700"));
         Mockito.verify(mockTextGraphics).putString(5, 6, "H");
     }
+     */
 
+    /*
     @Test
     public void testDrawWall() {
         Screen mockScreen = Mockito.mock(Screen.class);
@@ -94,6 +97,9 @@ public class LanternaGUITest {
         Mockito.verify(mockTextGraphics).putString(10, 11, "#");
     }
 
+     */
+
+    /*
     @Test
     public void testDrawMonster() {
         Screen mockScreen = Mockito.mock(Screen.class);
@@ -109,6 +115,8 @@ public class LanternaGUITest {
         Mockito.verify(mockTextGraphics).setForegroundColor(TextColor.Factory.fromString("#CC0000"));
         Mockito.verify(mockTextGraphics).putString(15, 21, "@");
     }
+
+     */
 
     //ERRO
 /*

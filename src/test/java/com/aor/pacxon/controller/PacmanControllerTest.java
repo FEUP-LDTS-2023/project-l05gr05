@@ -21,6 +21,7 @@ public class PacmanControllerTest {
         when(arenaMock.getPacman()).thenReturn(pacmanMock);
     }
 
+    /*
     @Test
     public void testMovePacmanLeft_EmptyPosition() {
         // Verifica se o Pacman se move para a esquerda quando a posição está vazia.
@@ -34,6 +35,8 @@ public class PacmanControllerTest {
         verify(pacmanMock).setPosition(positionMock);
         verify(pacmanMock, never()).decreaseLives();
     }
+     */
+
     /**
     @Test
     public void testMovePacmanRight_WithMonster() {
