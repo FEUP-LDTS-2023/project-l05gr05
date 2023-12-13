@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.viewer.MenuViewerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-11T21:12:02" hostname="AirdeFrancisca9.lan" time="0.629">
+<testsuite name="com.aor.pacxon.viewer.MenuViewerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-13T12:03:19" hostname="MacBook-Pro-de-Beatriz-5.local" time="0.003">
   <properties/>
-  <testcase name="testDrawElements_MenuEntries()" classname="com.aor.pacxon.viewer.MenuViewerTest" time="0.629"/>
+  <testcase name="testDrawElements_MenuEntries()" classname="com.aor.pacxon.viewer.MenuViewerTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

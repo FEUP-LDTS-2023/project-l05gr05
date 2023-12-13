@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.gui.LanternaGUITest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-11T21:11:56" hostname="AirdeFrancisca9.lan" time="5.814">
+<testsuite name="com.aor.pacxon.gui.LanternaGUITest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-13T12:03:18" hostname="MacBook-Pro-de-Beatriz-5.local" time="1.06">
   <properties/>
-  <testcase name="testClear()" classname="com.aor.pacxon.gui.LanternaGUITest" time="4.933"/>
-  <testcase name="testClose()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.235"/>
-  <testcase name="testRefresh()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.178"/>
-  <testcase name="testInitialization()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.455"/>
+  <testcase name="testClear()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.793"/>
+  <testcase name="testClose()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.081"/>
+  <testcase name="testRefresh()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.107"/>
+  <testcase name="testInitialization()" classname="com.aor.pacxon.gui.LanternaGUITest" time="0.075"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

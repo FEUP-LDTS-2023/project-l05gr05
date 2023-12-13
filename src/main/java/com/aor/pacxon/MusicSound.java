@@ -10,9 +10,9 @@ public class MusicSound {
         try {
             File audioFile = new File(filePath);
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(audioFile);
-
             clip = AudioSystem.getClip();
             clip.open(audioInputStream);
+            clip.loop(100);
         } catch (UnsupportedAudioFileException | IOException | LineUnavailableException e) {
             e.printStackTrace();
         }
