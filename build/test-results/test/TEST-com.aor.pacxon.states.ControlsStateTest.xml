@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.states.ControlsStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-13T12:03:19" hostname="MacBook-Pro-de-Beatriz-5.local" time="0.001">
+<testsuite name="com.aor.pacxon.states.ControlsStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T16:35:25" hostname="LAPTOP-BCCILPH9" time="0.001">
   <properties/>
   <testcase name="testGetController()" classname="com.aor.pacxon.states.ControlsStateTest" time="0.0"/>
   <testcase name="testGetViewer()" classname="com.aor.pacxon.states.ControlsStateTest" time="0.0"/>

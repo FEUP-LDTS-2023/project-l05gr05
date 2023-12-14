@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.model.MenuWinGameTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-13T12:03:19" hostname="MacBook-Pro-de-Beatriz-5.local" time="0.003">
+<testsuite name="com.aor.pacxon.model.MenuWinGameTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-14T16:35:25" hostname="LAPTOP-BCCILPH9" time="0.005">
   <properties/>
   <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuWinGameTest" time="0.0"/>
-  <testcase name="testIsSelected()" classname="com.aor.pacxon.model.MenuWinGameTest" time="0.001"/>
+  <testcase name="testIsSelected()" classname="com.aor.pacxon.model.MenuWinGameTest" time="0.0"/>
   <testcase name="testInitialization()" classname="com.aor.pacxon.model.MenuWinGameTest" time="0.0"/>
   <testcase name="testPreviousEntry()" classname="com.aor.pacxon.model.MenuWinGameTest" time="0.001"/>
   <testcase name="testNextEntry()" classname="com.aor.pacxon.model.MenuWinGameTest" time="0.001"/>

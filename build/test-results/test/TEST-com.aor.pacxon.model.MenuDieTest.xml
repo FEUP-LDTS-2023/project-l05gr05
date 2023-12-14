@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.model.MenuDieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-13T12:03:19" hostname="MacBook-Pro-de-Beatriz-5.local" time="0.005">
+<testsuite name="com.aor.pacxon.model.MenuDieTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-14T16:35:25" hostname="LAPTOP-BCCILPH9" time="0.007">
   <properties/>
   <testcase name="testCycleEntries()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
-  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
+  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
   <testcase name="testIsSelected()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
-  <testcase name="testInitialization()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
-  <testcase name="testPreviousEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
-  <testcase name="testNextEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
+  <testcase name="testInitialization()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
+  <testcase name="testPreviousEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.001"/>
+  <testcase name="testNextEntry()" classname="com.aor.pacxon.model.MenuDieTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

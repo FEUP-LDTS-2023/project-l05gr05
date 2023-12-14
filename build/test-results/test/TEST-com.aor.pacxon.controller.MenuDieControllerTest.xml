@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.controller.MenuDieControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-13T12:03:18" hostname="MacBook-Pro-de-Beatriz-5.local" time="0.021">
+<testsuite name="com.aor.pacxon.controller.MenuDieControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-14T16:35:24" hostname="LAPTOP-BCCILPH9" time="0.026">
   <properties/>
-  <testcase name="testStep_SelectExitAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.014"/>
+  <testcase name="testStep_SelectExitAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.016"/>
   <testcase name="testStep_MoveUpAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.001"/>
-  <testcase name="testStep_MoveDownAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.001"/>
-  <testcase name="testStep_SelectBackToMenuAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.004"/>
+  <testcase name="testStep_MoveDownAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.0"/>
+  <testcase name="testStep_SelectBackToMenuAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[java.io.FileNotFoundException: music file path (No such file or directory)
+  <system-err><![CDATA[java.io.FileNotFoundException: music file path (The system cannot find the file specified)
 	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:158)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:211)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:153)
 	at java.desktop/com.sun.media.sound.SunFileReader.getAudioInputStream(SunFileReader.java:117)
-	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1060)
+	at java.desktop/javax.sound.sampled.AudioSystem.getAudioInputStream(AudioSystem.java:1062)
 	at com.aor.pacxon.MusicSound.<init>(MusicSound.java:12)
 	at com.aor.pacxon.model.Menu.<init>(Menu.java:16)
 	at com.aor.pacxon.controller.MenuDieController.step(MenuDieController.java:26)
 	at com.aor.pacxon.controller.MenuDieControllerTest.testStep_SelectBackToMenuAction(MenuDieControllerTest.java:29)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
@@ -80,8 +82,10 @@
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:90)
 	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:85)
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
