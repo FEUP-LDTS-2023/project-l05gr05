@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.viewer.MenuWinGameViewerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T16:35:25" hostname="LAPTOP-BCCILPH9" time="0.005">
+<testsuite name="com.aor.pacxon.viewer.MenuWinGameViewerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T17:04:17" hostname="LAPTOP-BCCILPH9" time="0.005">
   <properties/>
   <testcase name="testDrawElements_MenuEntries()" classname="com.aor.pacxon.viewer.MenuWinGameViewerTest" time="0.003"/>
   <testcase name="testDrawElements_Title()" classname="com.aor.pacxon.viewer.MenuWinGameViewerTest" time="0.002"/>

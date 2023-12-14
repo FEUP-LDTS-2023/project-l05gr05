@@ -40,13 +40,6 @@ public class Arena {
         }
     }
 
-    public void convertTemporaryWallsToPermanent() {
-        for (Wall wall : walls) {
-            if (wall.isTemporary()) {
-                wall.makePermanent();
-            }
-        }
-    }
     public void addToTrail(Position position) {
         if (isEmpty(position)) {
             trail.add(position);
@@ -60,15 +53,27 @@ public class Arena {
         trail.clear();
     }
 
-    public void fillArea(Position start) {
-        if (withinMapBounds(start) && isEmpty(start) && !filledPositions.contains(start)) {
-            filledPositions.add(start);
-            setWall(start);
 
-            fillArea(new Position(start.getX() + 1, start.getY())); // Direita
-            fillArea(new Position(start.getX() - 1, start.getY())); // Esquerda
-            fillArea(new Position(start.getX(), start.getY() + 1)); // Abaixo
-            fillArea(new Position(start.getX(), start.getY() - 1)); // Acima
+    public void fillPolygon(List<Position> vertices) {
+        int minX = Integer.MAX_VALUE;
+        int maxX = Integer.MIN_VALUE;
+        int minY = Integer.MAX_VALUE;
+        int maxY = Integer.MIN_VALUE;
+
+        for (Position vertex : vertices) {
+            if (vertex.getX() < minX) minX = vertex.getX();
+            if (vertex.getX() > maxX) maxX = vertex.getX();
+            if (vertex.getY() < minY) minY = vertex.getY();
+            if (vertex.getY() > maxY) maxY = vertex.getY();
+        }
+        // Preenche todas as posições dentro dos limites
+        for (int x = minX; x <= maxX; x++) {
+            for (int y = minY; y <= maxY; y++) {
+                Position position = new Position(x, y);
+                if (isEmpty(position)) {
+                    setWall(position);
+                }
+            }
         }
     }
 

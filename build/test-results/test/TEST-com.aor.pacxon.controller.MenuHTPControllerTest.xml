@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.controller.MenuHTPControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T16:35:24" hostname="LAPTOP-BCCILPH9" time="0.022">
+<testsuite name="com.aor.pacxon.controller.MenuHTPControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-14T17:04:16" hostname="LAPTOP-BCCILPH9" time="0.02">
   <properties/>
-  <testcase name="testStep_QuitBackToMenuAction()" classname="com.aor.pacxon.controller.MenuHTPControllerTest" time="0.016"/>
-  <testcase name="testStep_SelectBackToMenuAction()" classname="com.aor.pacxon.controller.MenuHTPControllerTest" time="0.005"/>
+  <testcase name="testStep_QuitBackToMenuAction()" classname="com.aor.pacxon.controller.MenuHTPControllerTest" time="0.015"/>
+  <testcase name="testStep_SelectBackToMenuAction()" classname="com.aor.pacxon.controller.MenuHTPControllerTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.io.FileNotFoundException: music file path (The system cannot find the file specified)
 	at java.base/java.io.FileInputStream.open0(Native Method)

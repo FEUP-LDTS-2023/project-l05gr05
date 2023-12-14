@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.model.MenuTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-14T16:35:25" hostname="LAPTOP-BCCILPH9" time="0.027">
+<testsuite name="com.aor.pacxon.model.MenuTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-14T17:04:17" hostname="LAPTOP-BCCILPH9" time="0.019">
   <properties/>
-  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuTest" time="0.006"/>
-  <testcase name="testIsSelected()" classname="com.aor.pacxon.model.MenuTest" time="0.006"/>
+  <testcase name="testGetEntry()" classname="com.aor.pacxon.model.MenuTest" time="0.005"/>
+  <testcase name="testIsSelected()" classname="com.aor.pacxon.model.MenuTest" time="0.004"/>
   <testcase name="testInitialization()" classname="com.aor.pacxon.model.MenuTest" time="0.004"/>
-  <testcase name="testPreviousEntry()" classname="com.aor.pacxon.model.MenuTest" time="0.003"/>
-  <testcase name="testNextEntry()" classname="com.aor.pacxon.model.MenuTest" time="0.003"/>
+  <testcase name="testPreviousEntry()" classname="com.aor.pacxon.model.MenuTest" time="0.002"/>
+  <testcase name="testNextEntry()" classname="com.aor.pacxon.model.MenuTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[java.io.FileNotFoundException: music file path (The system cannot find the file specified)
 	at java.base/java.io.FileInputStream.open0(Native Method)

@@ -5,9 +5,14 @@ import com.aor.pacxon.model.*;
 import com.aor.pacxon.Game;
 import com.aor.pacxon.states.DieState;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class PacmanController extends GameController {
+    private final List<Position> pathVertices = new ArrayList<>();
     public PacmanController(Arena arena) {
         super(arena);
+        pathVertices.add(arena.getPacman().getPosition());
     }
 
     public void movePacmanLeft() {
@@ -28,14 +33,27 @@ public class PacmanController extends GameController {
 
     private void movePacman(Position position) {
         Arena arena = getModel();
+        Position currentPosition = arena.getPacman().getPosition();
+
+        if (!position.equals(currentPosition) && !arena.isEmpty(position)) {
+            pathVertices.add(currentPosition); // Adiciona um vértice quando muda de direção
+            arena.fillPolygon(pathVertices); // Chama o método para preencher o polígono
+            pathVertices.clear();
+            pathVertices.add(position); // Inicia um novo rastreamento a partir da nova posição
+        }
+
 
         if (arena.isEmpty(position)) {
+            pathVertices.add(position);
             arena.addToTrail(position);
         } else {
             if (!arena.getTrail().isEmpty()) {
-                arena.fillArea(arena.getTrail().get(0));
+                pathVertices.add(currentPosition);
+                arena.fillPolygon(pathVertices);
+                pathVertices.clear();
                 arena.clearTrail();
             }
+            pathVertices.add(position);
         }
         boolean canMoveToPosition = getModel().isEmpty(position) || !getModel().isEmpty(position);
 
