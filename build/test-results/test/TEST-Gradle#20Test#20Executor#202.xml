@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Gradle Test Executor 2" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-12-14T17:04:16" hostname="LAPTOP-BCCILPH9" time="1.791">
+<testsuite name="Gradle Test Executor 2" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-12-17T12:24:25" hostname="LAPTOP-BCCILPH9" time="1.676">
   <properties/>
-  <testcase name="failed to execute tests" classname="Gradle Test Executor 2" time="1.791">
+  <testcase name="failed to execute tests" classname="Gradle Test Executor 2" time="1.676">
     <failure message="org.gradle.api.internal.tasks.testing.TestSuiteExecutionException: Could not execute test class 'com.aor.pacxon.controllertest.MonsterControllerTest'." type="org.gradle.api.internal.tasks.testing.TestSuiteExecutionException">org.gradle.api.internal.tasks.testing.TestSuiteExecutionException: Could not execute test class 'com.aor.pacxon.controllertest.MonsterControllerTest'.
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:54)
 	at java.base@16.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

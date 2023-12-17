@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.states.GameStateTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2023-12-14T17:04:17" hostname="LAPTOP-BCCILPH9" time="0.005">
+<testsuite name="com.aor.pacxon.states.GameStateTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2023-12-17T12:24:25" hostname="LAPTOP-BCCILPH9" time="0.018">
   <properties/>
-  <testcase name="testGetController()" classname="com.aor.pacxon.states.GameStateTest" time="0.004">
+  <testcase name="testGetController()" classname="com.aor.pacxon.states.GameStateTest" time="0.017">
     <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.aor.pacxon.model.Pacman.getPosition()&quot; because the return value of &quot;com.aor.pacxon.model.Arena.getPacman()&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.aor.pacxon.model.Pacman.getPosition()&quot; because the return value of &quot;com.aor.pacxon.model.Arena.getPacman()&quot; is null
 	at com.aor.pacxon.controller.PacmanController.&lt;init&gt;(PacmanController.java:15)
 	at com.aor.pacxon.controller.ArenaController.&lt;init&gt;(ArenaController.java:20)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.controller.MenuDieControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-14T17:04:16" hostname="LAPTOP-BCCILPH9" time="0.02">
+<testsuite name="com.aor.pacxon.controller.MenuDieControllerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-17T12:24:26" hostname="LAPTOP-BCCILPH9" time="0.019">
   <properties/>
-  <testcase name="testStep_SelectExitAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.014"/>
+  <testcase name="testStep_SelectExitAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.013"/>
   <testcase name="testStep_MoveUpAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.001"/>
   <testcase name="testStep_MoveDownAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.001"/>
   <testcase name="testStep_SelectBackToMenuAction()" classname="com.aor.pacxon.controller.MenuDieControllerTest" time="0.003"/>
