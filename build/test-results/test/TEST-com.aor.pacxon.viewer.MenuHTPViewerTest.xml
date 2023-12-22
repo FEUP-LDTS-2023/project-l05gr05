@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.viewer.MenuHTPViewerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-12-22T19:20:58" hostname="AirdeFrancisca9.lan" time="0.019">
-  <properties/>
-  <testcase name="testDrawElements_GoodLuckMessage()" classname="com.aor.pacxon.viewer.MenuHTPViewerTest" time="0.004"/>
-  <testcase name="testDrawElements_ReturnToMainMenu()" classname="com.aor.pacxon.viewer.MenuHTPViewerTest" time="0.004"/>
-  <testcase name="testDrawElements_IntroductionText()" classname="com.aor.pacxon.viewer.MenuHTPViewerTest" time="0.009"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

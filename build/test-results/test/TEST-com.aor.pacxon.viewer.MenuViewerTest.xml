@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.viewer.MenuViewerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-22T19:20:58" hostname="AirdeFrancisca9.lan" time="0.011">
-  <properties/>
-  <testcase name="testDrawElements_MenuEntries()" classname="com.aor.pacxon.viewer.MenuViewerTest" time="0.011"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

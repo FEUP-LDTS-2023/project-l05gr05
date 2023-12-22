@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.pacxon.states.HTPStateTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-12-22T19:20:58" hostname="AirdeFrancisca9.lan" time="0.004">
-  <properties/>
-  <testcase name="testGetController()" classname="com.aor.pacxon.states.HTPStateTest" time="0.002"/>
-  <testcase name="testGetViewer()" classname="com.aor.pacxon.states.HTPStateTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
