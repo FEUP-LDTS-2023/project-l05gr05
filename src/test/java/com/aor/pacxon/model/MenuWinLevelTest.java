@@ -32,20 +32,6 @@ public class MenuWinLevelTest {
         assertTrue(menu.isSelectedBackToMenu());
     }
 
-    //ERRO
-    //Verifica se a seleção de entradas cicla corretamente, indo para a próxima e, em seguida, para a anterior, e mantendo o estado de seleção esperado
-    /*@Test
-    void testCycleEntries() {
-        MenuWinLevel menu = new MenuWinLevel(100);
-        menu.nextEntry();
-        assertTrue(menu.isSelectedNextLevel());
-        assertFalse(menu.isSelectedBackToMenu());
-
-        menu.previousEntry();
-        assertFalse(menu.isSelectedNextLevel());
-        assertTrue(menu.isSelectedBackToMenu());
-    }
-    */
 
     //Verifica se o método getEntry retorna corretamente as strings das entradas esperadas
     @Test

@@ -6,6 +6,8 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 
+/*tirar*/
+
 public class LoaderArenaBuilderTest {
     //Verifica se a criação da arena usando o LoaderArenaBuilder gera uma arena não nula, com listas de monstros e paredes não nulas, e um Pacman não nulo
     /* @Test

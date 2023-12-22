@@ -1,18 +1,53 @@
 package com.aor.pacxon;
 
-import com.googlecode.lanterna.screen.Screen;
-import com.googlecode.lanterna.screen.TerminalScreen;
-import com.googlecode.lanterna.terminal.DefaultTerminalFactory;
-import com.googlecode.lanterna.terminal.Terminal;
-import org.junit.jupiter.api.AfterEach;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
+import java.awt.*;
 import java.io.IOException;
+import java.net.URISyntaxException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class GameTest {
+
+    private Game game;
+
+    @BeforeEach
+    public void setUp() throws IOException, URISyntaxException, FontFormatException {
+        game = new Game(); // Assuming Game has a default constructor
+    }
+
+    @Test
+    public void testGameInitialization() {
+        assertNotNull(game, "Game object should be initialized");
+
+        // Example assertions - adjust these according to your actual Game class
+
+
+        // Check if the game is not running initially
+        assertFalse(game.isRunning(), "Game should not be running initially");
+
+    }
+
+    @Test
+    public void testStartGame() throws IOException {
+        game.start();
+        assertTrue(game.isRunning(), "Game should be running after start");
+    }
+
+    @Test
+    public void testPauseGame() throws IOException {
+        // Test the game's pause functionality
+        game.start();
+        game.pause();
+        assertFalse(game.isRunning(), "Game should be paused");
+    }
+
+
+
+
+
 /**    private Game game;
     private Screen screen;
 

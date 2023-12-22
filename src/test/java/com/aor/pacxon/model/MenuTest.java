@@ -36,21 +36,6 @@ public class MenuTest {
         assertTrue(menu.isSelectedExit());
     }
 
-    //ERRO
-    //Verifica se a seleção de entradas cicla corretamente, indo para a próxima e, em seguida, para a anterior, mantendo o estado de seleção esperado
-    /*@Test
-    void testCycleEntries() {
-        Menu menu = new Menu();
-        menu.nextEntry();
-        assertTrue(menu.isSelectedHTP());
-        assertFalse(menu.isSelectedControls());
-
-        menu.previousEntry();
-        assertFalse(menu.isSelectedHTP());
-        assertTrue(menu.isSelectedExit());
-    }
-    */
-
 
     //Verifica se o método getEntry retorna corretamente as strings das entradas esperadas
     @Test

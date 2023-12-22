@@ -16,10 +16,15 @@ public class Game {
 
     private final MusicSound gameMusic;
 
+    private boolean isRunning;
+
+
     public Game() throws FontFormatException, IOException, URISyntaxException {
         this.gui = new LanternaGUI(100, 40);
         this.state = new MenuState(new Menu());
         this.gameMusic = new MusicSound("src/main/resources/music/musicapacxon.wav");
+        isRunning = false;
+
     }
 
     public static void main(String[] args) throws IOException, FontFormatException, URISyntaxException {
@@ -30,7 +35,8 @@ public class Game {
         this.state = state;
     }
 
-    private void start() throws IOException {
+    void start() throws IOException {
+        isRunning = true;
         gameMusic.play();
         int FPS = 10;
         int frameTime = 1000 / FPS;
@@ -51,6 +57,14 @@ public class Game {
 
         gui.close();
         gameMusic.stop();
+    }
+
+    public boolean isRunning() {
+        return isRunning;
+    }
+
+    public void pause() {
+        isRunning = false;
     }
 }
 

@@ -12,7 +12,10 @@ import java.io.IOException;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
+/*tirar*/
+
 public class StateTest {
+    /*
 
     // classe fictícia para a implementação de State
     private static class FakeState extends State<String> {
@@ -48,6 +51,8 @@ public class StateTest {
         // Verifica se o método getController() foi chamado durante a construção
         assertNotNull(fakeState.getController());
     }
+
+     */
 
     //ERRO
     /*

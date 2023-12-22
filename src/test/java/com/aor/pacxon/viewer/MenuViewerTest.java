@@ -20,15 +20,6 @@ public class MenuViewerTest {
         gui = mock(GUI.class);
     }
 
-    /*
-    @Test
-    // Testa se o método drawElements desenha corretamente o título "PACXON" na posição (5, 5) com a cor #FFA500
-    public void testDrawElements_Title() {
-        menuViewer.drawElements(gui);
-        verify(gui).drawText(new Position(5, 5), "PACXON", "#FFA500");
-    }
-     */
-
     @Test
     // Testa se o método drawElements desenha corretamente as entradas do menu nas posições e cores adequadas
     public void testDrawElements_MenuEntries() {
