@@ -20,28 +20,5 @@ public class MonsterControllerTest {
         pacmanMock = mock(Pacman.class);
         monsterMock = mock(Monster.class);
     }
-    /**
-    @Test
-    public void testStep_MoveMonsters() throws IOException {
-        // Verifica se, ao chamar o método step(), os monstros se movem dentro da arena.
-        // Confirma se o método setPosition é chamado para cada monstro.
-        // Simula uma lista de monstros na arena
-        List<Monster> monsters = new ArrayList<>();
-        monsters.add(monsterMock);
-        when(arenaMock.getMonsters()).thenReturn(monsters);
-
-        // Simula um movimento para uma posição aleatória para cada monstro
-        Position positionMock = mock(Position.class);
-        when(monsterMock.getPosition()).thenReturn(positionMock);
-        when(positionMock.getRandomNeighbour()).thenReturn(positionMock);
-
-        // Chama o método step()
-        monsterController.step(null, GUI.ACTION.NONE, 100L);
-
-        // Verifica se setPosition foi chamado para cada monstro
-        verify(monsterMock, times(1)).setPosition(any(Position.class));
-        verify(arenaMock, never()).getPacman();
-    }
-    */
 }
 

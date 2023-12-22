@@ -21,36 +21,4 @@ public class PacmanControllerTest {
         when(arenaMock.getPacman()).thenReturn(pacmanMock);
     }
 
-    /*
-    @Test
-    public void testMovePacmanLeft_EmptyPosition() {
-        // Verifica se o Pacman se move para a esquerda quando a posição está vazia.
-        Position positionMock = mock(Position.class);
-        when(pacmanMock.getPosition()).thenReturn(positionMock);
-        when(positionMock.getLeft()).thenReturn(positionMock);
-        when(arenaMock.isEmpty(positionMock)).thenReturn(true);
-
-        pacmanController.movePacmanLeft();
-
-        verify(pacmanMock).setPosition(positionMock);
-        verify(pacmanMock, never()).decreaseLives();
-    }
-     */
-
-    /**
-    @Test
-    public void testMovePacmanRight_WithMonster() {
-        // Verifica se o Pacman tenta se mover para a direita e encontra um monstro.
-        Position positionMock = mock(Position.class);
-        when(pacmanMock.getPosition()).thenReturn(positionMock);
-        when(positionMock.getRight()).thenReturn(positionMock);
-        when(arenaMock.isEmpty(positionMock)).thenReturn(false);
-        when(arenaMock.isMonster(positionMock)).thenReturn(true);
-
-        pacmanController.movePacmanRight();
-
-        verify(pacmanMock, never()).setPosition(positionMock);
-        verify(pacmanMock).decreaseEnergy();
-    }
-    */
 }

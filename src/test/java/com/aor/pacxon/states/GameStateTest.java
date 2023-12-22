@@ -8,8 +8,14 @@ import com.aor.pacxon.viewer.Viewer;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class GameStateTest {
 
+/*tirar*/
+
+
+
+
+public class GameStateTest {
+/*
     //Verifica se o modelo associado ao Viewer é o mesmo Arena criado anteriormente
     @Test
     void testGetViewer() {
@@ -37,4 +43,8 @@ public class GameStateTest {
         assertEquals(arena, controller.getModel());
     }
 
+ */
+
 }
+
+

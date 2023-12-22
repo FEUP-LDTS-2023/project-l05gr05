@@ -35,20 +35,6 @@ public class MenuWinGameTest {
         assertTrue(menu.isSelectedBackToMenu());
     }
 
-    //ERRO
-    //Verifica se a seleção de entradas cicla corretamente, indo para a próxima e, em seguida, para a anterior, mantendo o estado de seleção esperado
-    /*@Test
-    void testCycleEntries() {
-        MenuWinGame menu = new MenuWinGame(200);
-        menu.nextEntry();
-        assertTrue(menu.isSelectedNextLevel());
-        assertFalse(menu.isSelectedBackToMenu());
-
-        menu.previousEntry();
-        assertFalse(menu.isSelectedNextLevel());
-        assertTrue(menu.isSelectedBackToMenu());
-    }
-*/
 
     //Verifica se o método getEntry retorna corretamente as strings das entradas esperadas
     @Test
