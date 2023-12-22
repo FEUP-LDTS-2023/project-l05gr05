@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pacxon.model.MenuWinGameTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-22T22:54:46" hostname="AirdeFrancisca9.lan" time="0.022">
+  <properties/>
+  <testcase name="testGetEntry()" classname="com.pacxon.model.MenuWinGameTest" time="0.003"/>
+  <testcase name="testIsSelected()" classname="com.pacxon.model.MenuWinGameTest" time="0.004"/>
+  <testcase name="testInitialization()" classname="com.pacxon.model.MenuWinGameTest" time="0.001"/>
+  <testcase name="testPreviousEntry()" classname="com.pacxon.model.MenuWinGameTest" time="0.004"/>
+  <testcase name="testNextEntry()" classname="com.pacxon.model.MenuWinGameTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

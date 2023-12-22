@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pacxon.gui.LanternaGUITest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-22T22:54:44" hostname="AirdeFrancisca9.lan" time="1.247">
+  <properties/>
+  <testcase name="testClear()" classname="com.pacxon.gui.LanternaGUITest" time="0.159"/>
+  <testcase name="testClose()" classname="com.pacxon.gui.LanternaGUITest" time="0.231"/>
+  <testcase name="testRefresh()" classname="com.pacxon.gui.LanternaGUITest" time="0.341"/>
+  <testcase name="testInitialization()" classname="com.pacxon.gui.LanternaGUITest" time="0.51"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

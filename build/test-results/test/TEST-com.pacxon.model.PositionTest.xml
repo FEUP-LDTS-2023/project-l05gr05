@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pacxon.model.PositionTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2023-12-22T22:54:46" hostname="AirdeFrancisca9.lan" time="0.064">
+  <properties/>
+  <testcase name="testGetRight()" classname="com.pacxon.model.PositionTest" time="0.001"/>
+  <testcase name="testGetRandomNeighbour()" classname="com.pacxon.model.PositionTest" time="0.003"/>
+  <testcase name="testGetUp()" classname="com.pacxon.model.PositionTest" time="0.004"/>
+  <testcase name="testGetX()" classname="com.pacxon.model.PositionTest" time="0.009"/>
+  <testcase name="testGetY()" classname="com.pacxon.model.PositionTest" time="0.004"/>
+  <testcase name="testGetDown()" classname="com.pacxon.model.PositionTest" time="0.001"/>
+  <testcase name="testGetLeft()" classname="com.pacxon.model.PositionTest" time="0.003"/>
+  <testcase name="testHashCode()" classname="com.pacxon.model.PositionTest" time="0.011"/>
+  <testcase name="testEquals()" classname="com.pacxon.model.PositionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
