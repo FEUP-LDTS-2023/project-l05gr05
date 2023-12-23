@@ -1,8 +1,10 @@
 package com.pacxon.controller;
 
+import com.pacxon.gui.GUI;
 import com.pacxon.model.Arena;
 import com.pacxon.model.Pacman;
 import com.pacxon.model.Position;
+import com.pacxon.states.DieState;
 import org.junit.jupiter.api.BeforeEach;
 
 import static org.mockito.Mockito.*;
@@ -14,32 +16,49 @@ import org.mockito.MockitoAnnotations;
 
 public class PacmanControllerTest {
     @Mock
-    private Game game;
+    private Arena mockArena;
+
     @Mock
-    private Arena arena;
+    private Pacman mockPacman;
+
     @Mock
-    private Pacman pacman;
+    private Game mockGame;
 
     private PacmanController pacmanController;
 
     @BeforeEach
     void setUp() {
         MockitoAnnotations.openMocks(this);
-        when(arena.getPacman()).thenReturn(pacman);
-        when(pacman.getPosition()).thenReturn(new Position(5, 5));
-        when(arena.getWidth()).thenReturn(10);
-        when(arena.getHeight()).thenReturn(10);
-
-        pacmanController = new PacmanController(arena);
+        when(mockArena.getPacman()).thenReturn(mockPacman);
+        pacmanController = new PacmanController(mockArena);
     }
 
     @Test
-    void testMovePacmanLeft() {
-        Position leftPosition = new Position(4, 5);
-        when(arena.isEmpty(leftPosition)).thenReturn(true);
+    void testMovePacman() {
+        Position initialPosition = new Position(5, 5);
+        when(mockPacman.getPosition()).thenReturn(initialPosition);
+        when(mockArena.isEmpty(any(Position.class))).thenReturn(true);
 
         pacmanController.movePacmanLeft();
+        verify(mockPacman).setPosition(new Position(4, 5));
 
-        verify(pacman).setPosition(leftPosition);
+        pacmanController.movePacmanRight();
+        verify(mockPacman).setPosition(new Position(6, 5));
+
+        pacmanController.movePacmanUp();
+        verify(mockPacman).setPosition(new Position(5, 4));
+
+        pacmanController.movePacmanDown();
+        verify(mockPacman).setPosition(new Position(5, 6));
     }
+
+    @Test
+    void testPacmanDeathChangesGameState() {
+        when(mockPacman.isDead()).thenReturn(true);
+
+        pacmanController.step(mockGame, GUI.ACTION.NONE, 0);
+
+        verify(mockGame).setState(any(DieState.class));
+    }
+
 }

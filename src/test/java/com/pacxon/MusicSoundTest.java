@@ -3,7 +3,11 @@ package com.pacxon;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import java.io.File;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
@@ -15,7 +19,7 @@ public class MusicSoundTest {
     @BeforeEach
     public void setUp() {
         mockClip = mock(Clip.class);
-        musicSound = new MusicSound("src/test/resources/test_audio.wav");
+        musicSound = new MusicSound("src/main/resources/music/musicapacxon.wav");
     }
 
     @Test
@@ -48,6 +52,39 @@ public class MusicSoundTest {
         musicSound = new MusicSound("invalid_file_path.wav");
         musicSound.stop();
         assertNull(musicSound.getClip());
+    }
+
+    @Test
+    public void testValidAudioFileLoading() throws Exception {
+        // Substitua este caminho pelo caminho de um arquivo de áudio real para teste
+        String validFilePath = "src/main/resources/music/musicapacxon.wav";
+        Clip testClip = AudioSystem.getClip();
+        AudioInputStream testStream = AudioSystem.getAudioInputStream(new File(validFilePath));
+        testClip.open(testStream);
+
+        MusicSound validMusicSound = new MusicSound(validFilePath);
+
+        assertNotNull(validMusicSound.getClip());
+    }
+
+    @Test
+    public void testPlayWhenClipIsStopped() {
+        when(mockClip.isRunning()).thenReturn(false);
+        doNothing().when(mockClip).start();
+
+        musicSound.play();
+
+        verify(mockClip).start();
+    }
+
+    @Test
+    public void testStopWhenClipIsRunning() {
+        when(mockClip.isRunning()).thenReturn(true);
+        doNothing().when(mockClip).stop();
+
+        musicSound.stop();
+
+        verify(mockClip).stop();
     }
 }
 

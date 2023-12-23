@@ -1,9 +1,16 @@
 package com.pacxon.model;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MenuTest {
+    private Menu menu;
+
+    @BeforeEach
+    void setUp() {
+        menu = new Menu();
+    }
 
     //Verifica se a criação de um objeto Menu atribui corretamente o número de entradas e se a primeira entrada está corretamente selecionada por padrão
     @Test
@@ -19,21 +26,35 @@ public class MenuTest {
 
     //Verifica se a chamada ao método nextEntry avança corretamente para a próxima entrada, alterando o estado de seleção conforme esperado
     @Test
-    void testNextEntry() {
-        Menu menu = new Menu();
-        menu.nextEntry();
-        assertFalse(menu.isSelectedStart());
+    void testNextEntryCycling() {
+        menu.nextEntry(); // Deve ir para "HOW TO PLAY"
         assertTrue(menu.isSelectedHTP());
+
+        menu.nextEntry(); // Deve ir para "CONTROLS"
+        assertTrue(menu.isSelectedControls());
+
+        menu.nextEntry(); // Deve ir para "QUIT"
+        assertTrue(menu.isSelectedExit());
+
+        menu.nextEntry(); // Deve voltar para "PLAY"
+        assertTrue(menu.isSelectedStart());
     }
 
 
     //Verifica se a chamada ao método previousEntry retrocede corretamente para a entrada anterior, alterando o estado de seleção conforme esperado
     @Test
-    void testPreviousEntry() {
-        Menu menu = new Menu();
-        menu.previousEntry();
-        assertFalse(menu.isSelectedStart());
+    void testPreviousEntryCycling() {
+        menu.previousEntry(); // Deve ir para "QUIT"
         assertTrue(menu.isSelectedExit());
+
+        menu.previousEntry(); // Deve ir para "CONTROLS"
+        assertTrue(menu.isSelectedControls());
+
+        menu.previousEntry(); // Deve ir para "HOW TO PLAY"
+        assertTrue(menu.isSelectedHTP());
+
+        menu.previousEntry(); // Deve voltar para "PLAY"
+        assertTrue(menu.isSelectedStart());
     }
 
 

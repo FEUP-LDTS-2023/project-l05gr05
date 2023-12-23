@@ -51,12 +51,4 @@ public class Menu {
     public int getNumberEntries() {
         return this.entries.size();
     }
-
-    public void playMenuMusic() {
-        menuMusic.play();
-    }
-
-    public void stopMenuMusic() {
-        menuMusic.stop();
-    }
 }
