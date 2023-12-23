@@ -209,7 +209,7 @@ DEFAULT_JVM_OPTS=""
 
 set -- \
         -classpath "$CLASSPATH" \
-        com.aor.pacxon.Game \
+        com.pacxon.Game \
         "$@"
 
 # Stop when "xargs" is not available.

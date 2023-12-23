@@ -21,7 +21,7 @@ dependencies {
 }
 
 application {
-    mainClass.set('com.aor.pacxon.Game')
+    mainClass.set('com.pacxon.Game')
 }
 
 test {
