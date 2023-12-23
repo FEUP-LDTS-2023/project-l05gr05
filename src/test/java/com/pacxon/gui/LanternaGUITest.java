@@ -83,7 +83,7 @@ public class LanternaGUITest {
 
         GUI.ACTION result = gui.getNextAction();
 
-        assertEquals(GUI.ACTION.NONE, result); // Supondo que caracteres retornem ACTION.NONE
+        assertEquals(GUI.ACTION.NONE, result); 
     }
 
     // Testar comportamento quando pollInput retorna null

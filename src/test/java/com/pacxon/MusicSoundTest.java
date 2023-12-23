@@ -56,7 +56,6 @@ public class MusicSoundTest {
 
     @Test
     public void testValidAudioFileLoading() throws Exception {
-        // Substitua este caminho pelo caminho de um arquivo de áudio real para teste
         String validFilePath = "src/main/resources/music/musicapacxon.wav";
         Clip testClip = AudioSystem.getClip();
         AudioInputStream testStream = AudioSystem.getAudioInputStream(new File(validFilePath));

@@ -11,7 +11,7 @@ public class HTPStateTest {
     //Verifica se o modelo associado ao Viewer é o mesmo MenuHTP criado anteriormente
     @Test
     void testGetViewer() {
-        MenuHTP menuHTP = new MenuHTP(); // Crie uma instância fictícia de MenuHTP
+        MenuHTP menuHTP = new MenuHTP(); // Cria uma instância fictícia de MenuHTP
         HTPState htpState = new HTPState(menuHTP);
 
         Viewer<MenuHTP> viewer = htpState.getViewer();

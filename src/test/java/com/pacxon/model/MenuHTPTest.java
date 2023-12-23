@@ -30,6 +30,6 @@ class MenuHTPTest {
     @Test
     void testGetCurrentEntry() {
         MenuHTP menu = new MenuHTP();
-        assertEquals(0, menu.getCurrentEntry()); // Por default, a primeira entry é selcionada
+        assertEquals(0, menu.getCurrentEntry()); // Por default, a primeira entry é selecionada
     }
 }

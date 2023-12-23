@@ -29,7 +29,7 @@ public class CoinViewerTest {
 
     @Test
     public void testDrawCoinMultipleTimes() {
-        Coin coin = new Coin(3, 3); // You may adjust the position as needed
+        Coin coin = new Coin(3, 3);
         coinViewer.draw(coin, gui);
         coinViewer.draw(coin, gui);
         coinViewer.draw(coin, gui);

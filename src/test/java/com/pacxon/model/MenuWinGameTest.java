@@ -9,7 +9,6 @@ public class MenuWinGameTest {
     void testInitialization() {
         MenuWinGame menu = new MenuWinGame(200);
         assertEquals(200, menu.getPoints());
-        // Assuming two default entries
         assertEquals("LEVEL 1", menu.getEntry(0));
         assertEquals("BACK TO MENU", menu.getEntry(1));
         assertTrue(menu.isSelectedNextLevel());

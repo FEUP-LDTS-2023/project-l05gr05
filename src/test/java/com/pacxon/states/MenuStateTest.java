@@ -11,7 +11,7 @@ public class MenuStateTest {
     //Verifica se o modelo associado ao Viewer é o mesmo Menu criado anteriormente
     @Test
     void testGetViewer() {
-        Menu menu = new Menu(); // Cria uma instância fictícia de Menu
+        Menu menu = new Menu();
         MenuState menuState = new MenuState(menu);
 
         Viewer<Menu> viewer = menuState.getViewer();
@@ -24,7 +24,7 @@ public class MenuStateTest {
     //Verifica se o modelo associado ao Controller é o mesmo Menu criado anteriormente
     @Test
     void testGetController() {
-        Menu menu = new Menu(); // Cria uma instância fictícia de Menu
+        Menu menu = new Menu();
         MenuState menuState = new MenuState(menu);
 
         Controller<Menu> controller = menuState.getController();

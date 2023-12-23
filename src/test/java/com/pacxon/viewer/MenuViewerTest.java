@@ -34,7 +34,7 @@ public class MenuViewerTest {
 
         menuViewer.drawElements(gui);
 
-        // Verifica se as entradas do menu estão sendo desenhadas corretamente com as cores adequadas
+        // Verifica se as entradas do menu estão a ser desenhadas corretamente com as cores adequadas
         verify(gui).drawText(new Position(5, 7), "Option 1", "#FFD700"); // Verifica se a primeira entrada é desenhada selecionada
         verify(gui).drawText(new Position(5, 8), "Option 2", "#FFFFFF"); // Verifica se a segunda entrada é desenhada não selecionada
         verify(gui).drawText(new Position(5, 9), "Option 3", "#FFFFFF"); // Verifica se a terceira entrada é desenhada não selecionada

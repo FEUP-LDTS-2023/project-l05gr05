@@ -148,7 +148,7 @@ class ArenaTest {
         for (int x = 2; x <= 5; x++) {
             for (int y = 2; y <= 5; y++) {
                 Position pos = new Position(x, y);
-                assertFalse(arena.isEmpty(pos), "Posição esperada ser preenchida: " + pos);
+                assertFalse(arena.isEmpty(pos), "Posição esperada a ser preenchida: " + pos);
             }
         }
     }

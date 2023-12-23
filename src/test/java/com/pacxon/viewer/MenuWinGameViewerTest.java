@@ -38,7 +38,7 @@ public class MenuWinGameViewerTest {
 
         menuWinGameViewer.drawElements(gui);
 
-        // Verifica se as entradas do menu estão sendo desenhadas corretamente com as cores adequadas
+        // Verifica se as entradas do menu estão a ser desenhadas corretamente com as cores adequadas
         verify(gui).drawText(new Position(5, 7), "Option A", "#FFD700"); // Verifica se a primeira entrada é desenhada selecionada
         verify(gui).drawText(new Position(5, 8), "Option B", "#FFFFFF"); // Verifica se a segunda entrada é desenhada não selecionada
     }

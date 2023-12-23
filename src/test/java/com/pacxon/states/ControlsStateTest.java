@@ -13,7 +13,7 @@ public class ControlsStateTest {
     //Verifica se o modelo associado ao Viewer é o mesmo MenuControls criado anteriormente
     @Test
     void testGetViewer() {
-        MenuControls menuControls = new MenuControls(); // Crie uma instância de MenuControls
+        MenuControls menuControls = new MenuControls();
         ControlsState controlsState = new ControlsState(menuControls);
 
         Viewer<MenuControls> viewer = controlsState.getViewer();
@@ -26,7 +26,7 @@ public class ControlsStateTest {
     //Verifica se o modelo associado ao Controller é o mesmo MenuControls criado anteriormente
     @Test
     void testGetController() {
-        MenuControls menuControls = new MenuControls(); // Crie uma instância de MenuControls
+        MenuControls menuControls = new MenuControls();
         ControlsState controlsState = new ControlsState(menuControls);
 
         Controller<MenuControls> controller = controlsState.getController();

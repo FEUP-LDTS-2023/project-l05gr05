@@ -20,10 +20,4 @@ public class MonsterTest {
         monster.setPosition(new Position(4, 5));
         assertEquals(new Position(4, 5), monster.getPosition());
     }
-
-    //por implementar: testar interação entre monsters e pacman
-    @Test
-    void testMonsterInteractions() {
-    }
-
 }
