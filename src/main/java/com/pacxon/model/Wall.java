@@ -8,6 +8,10 @@ public class Wall extends ObjectType {
         this.isTemporary = isTemporary;
     }
 
+    public Wall(Position position) {
+        super(position.getX(), position.getY());
+    }
+
     public boolean isTemporary() {
         return isTemporary;
     }

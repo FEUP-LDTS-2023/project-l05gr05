@@ -18,6 +18,7 @@ import org.mockito.Spy;
 
 import java.io.IOException;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.*;
 
@@ -122,6 +123,99 @@ public class ArenaControllerTest {
         ArgumentCaptor<State> stateCaptor = ArgumentCaptor.forClass(State.class);
         verify(mockGame).setState(stateCaptor.capture());
         assertTrue(stateCaptor.getValue() instanceof DieState);
+    }
+
+    @Test
+    void testCoinCollectionAndScoreIncrement() throws IOException {
+        int initialScore = 100;
+        Position pacmanPosition = new Position(5, 5);
+        when(mockPacman.getPosition()).thenReturn(pacmanPosition);
+        when(mockPacman.getPoints()).thenReturn(initialScore);
+        when(mockArena.hitCoin()).thenReturn(true);
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+        verify(mockPacman).addPointsByCoin();
+        assertEquals(initialScore + 10, mockPacman.getPoints());
+    }
+
+    @Test
+    void testLevelProgressionToNextLevel() throws IOException {
+        when(mockArena.calculateFillPercentage()).thenReturn(80.0F);
+        when(mockArena.getLevel()).thenReturn(1);
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+        verify(mockGame).setState(any(WinLevelState.class));
+    }
+
+    @Test
+    void testLevelProgressionToGameWin() throws IOException {
+        when(mockArena.calculateFillPercentage()).thenReturn(80.0F);
+        when(mockArena.getLevel()).thenReturn(2);
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+        verify(mockGame).setState(any(WinGameState.class));
+    }
+
+
+    @Test
+    void testGameStateNotChangedOnRegularAction() throws IOException {
+        when(mockArena.getPacman().getLives()).thenReturn(3F);
+
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+
+        verify(mockGame, never()).setState(any());
+    }
+
+    @Test
+    void testMonsterControllerNotCalledIfPacmanDead() throws IOException {
+        when(mockPacman.getLives()).thenReturn(0F);
+
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+
+        verify(monsterController, never()).step(any(), any(), anyLong());
+    }
+
+
+    @Test
+    void testNoActionsWhenPacmanDead() throws IOException {
+        when(mockPacman.getLives()).thenReturn(0F);
+
+        arenaController.step(mockGame, GUI.ACTION.RIGHT, 0);
+
+        verifyZeroInteractions(pacmanController);
+        verifyZeroInteractions(monsterController);
+    }
+
+    @Test
+    void testWinLevelStateAfterLevelCompletion() throws IOException {
+        when(mockArena.calculateFillPercentage()).thenReturn(80.0F);
+        when(mockArena.getLevel()).thenReturn(1);
+
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+
+        verify(mockGame).setState(any(WinLevelState.class));
+    }
+
+    @Test
+    void testWinGameStateAfterLastLevelCompletion() throws IOException {
+        when(mockArena.calculateFillPercentage()).thenReturn(80.0F);
+        when(mockArena.getLevel()).thenReturn(2);
+
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+        verify(mockGame).setState(any(WinGameState.class));
+    }
+
+    @Test
+    void testPacmanGetsDamagedByMonster() throws IOException {
+        when(mockArena.getPacman().getPosition()).thenReturn(new Position(5, 5));
+        when(mockArena.isMonster(any())).thenReturn(true);
+
+        arenaController.step(mockGame, GUI.ACTION.NONE, 0);
+        verify(mockPacman).decreaseLives();
+    }
+
+    @Test
+    void testNoActionsWhenGameQuits() throws IOException {
+        arenaController.step(mockGame, GUI.ACTION.QUIT, 0);
+        verifyZeroInteractions(pacmanController);
+        verifyZeroInteractions(monsterController);
     }
 
 }

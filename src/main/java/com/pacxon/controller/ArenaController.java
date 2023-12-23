@@ -27,7 +27,7 @@ public class ArenaController extends GameController {
     public void step(Game game, GUI.ACTION action, long time) throws IOException {
         if (action == GUI.ACTION.QUIT || getModel().getPacman().getLives() == 0) {
             game.setState(new DieState(new MenuDie()));
-            return; // Encerra a execução do método para evitar chamadas adicionais
+            return;
         }
         pacmanController.step(game, action, time);
         monsterController.step(game, action, time);

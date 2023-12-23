@@ -9,6 +9,10 @@ public class Pacman extends ObjectType {
         this.lives = 3;
     }
 
+    public Pacman(Position position) {
+        super(position.getX(), position.getY());
+    }
+
     public boolean isDead(){
         if (lives==0){
             return true;

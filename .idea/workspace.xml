@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pacxon/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pacxon/Game.class" afterDir="false" />
@@ -106,6 +107,8 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/states/WinGameStateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/states/WinGameStateTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/states/WinLevelStateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/states/WinLevelStateTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/CoinViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/CoinViewerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/GameViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/GameViewerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuControlsViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuControlsViewerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuDieViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuDieViewerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuHTPViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuHTPViewerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuViewerTest.class" afterDir="false" />
@@ -113,6 +116,8 @@
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuWinLevelViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MenuWinLevelViewerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MonsterViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/MonsterViewerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/PacmanViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/PacmanViewerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/ViewerTest$TestViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/ViewerTest$TestViewer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/ViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/ViewerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/WallViewerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/pacxon/viewer/WallViewerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/ArenaController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/ArenaController.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/Controller.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/Controller.java.html" afterDir="false" />
@@ -124,7 +129,6 @@
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/MenuWinLevelController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/MenuWinLevelController.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/MonsterController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/MonsterController.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/PacmanController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/PacmanController.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.controller/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.gui/LanternaGUI.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.gui/LanternaGUI.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.model/Arena.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.model/Arena.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.model/ArenaBuilder.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.model/ArenaBuilder.java.html" afterDir="false" />
@@ -164,21 +168,61 @@
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.viewer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon.viewer/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon/Game.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon/Game.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon/MusicSound.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon/MusicSound.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/pitest/com.pacxon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/com.pacxon/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/pitest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/pitest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Gradle#20Test#20Executor#203.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.GameTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.MusicSoundTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.MenuControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.MenuControlsControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.MenuDieControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.MenuHTPControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.MenuWinGameControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.MenuWinLevelControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.PacmanControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.controller.PacmanControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.pacxon.gui.LanternaGUITest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.pacxon.controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.pacxon.controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.pacxon.gui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.pacxon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Gradle#20Test#20Executor#203.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.GameTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.MusicSoundTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.MenuControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.MenuControlsControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.MenuDieControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.MenuHTPControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.MenuWinGameControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.MenuWinLevelControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.PacmanControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.controller.PacmanControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.pacxon.gui.LanternaGUITest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Arena$TemporaryWall.class.uniqueId3" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Arena$TemporaryWall.class.uniqueId3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Arena.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ArenaBuilder.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ArenaController.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GameController.class.uniqueId11" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/GameState.class.uniqueId13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/LoaderArenaBuilder.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MenuWinGameController$1.class.uniqueId12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MenuWinGameController.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MenuWinLevelController$1.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MenuWinLevelController.class.uniqueId14" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MonsterController.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/PacmanController.class.uniqueId15" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/compileTransaction/stash-dir/MonsterControllerTest.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pacxon/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pacxon/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pacxon/controller/ArenaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pacxon/controller/ArenaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Pacman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Pacman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pacxon/model/Wall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/controller/ArenaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/controller/ArenaControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/controller/MonsterControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/controller/MonsterControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/model/ArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/model/ArenaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/model/PacmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/model/PacmanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/model/PositionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/model/PositionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/model/WallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/model/WallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/viewer/MenuWinLevelViewerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/viewer/MenuWinLevelViewerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/viewer/MonsterViewerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/viewer/MonsterViewerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/model/ArenaBuilderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pacxon/viewer/GameViewerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pacxon/viewer/GameViewerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,31 +285,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_directory_selection": "/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/pacxon",
-    "last_opened_file_path": "C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/beatrizpereira/Documents/GitHub/project-l05gr05/src/main/java/com/pacxon&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ftmlo/Ambiente de Trabalho/FEUP/LDTS/project-l05gr05/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "Markdown"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ftmlo\Ambiente de Trabalho\FEUP\LDTS\project-l05gr05\src\main\resources" />
@@ -278,7 +322,7 @@
       <recent name="$PROJECT_DIR$/main/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MonsterControllerTest.testMoveMonster">
+  <component name="RunManager" selected="Gradle.project-l05gr05 [pitest]">
     <configuration name="Run" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -287,7 +331,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LanternaGUITest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameViewerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -300,7 +344,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.pacxon.gui.LanternaGUITest&quot;" />
+            <option value="&quot;com.pacxon.viewer.GameViewerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MenuControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.pacxon.controller.MenuControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -335,7 +403,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="MonsterControllerTest.testMoveMonster" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PacmanControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -348,31 +416,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.pacxon.controller.MonsterControllerTest.testMoveMonster&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="PacmanViewerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.pacxon.viewer.PacmanViewerTest&quot;" />
+            <option value="&quot;com.pacxon.controller.PacmanControllerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -407,19 +451,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Run" />
-      <item itemvalue="Gradle.LanternaGUITest" />
+      <item itemvalue="Gradle.GameViewerTest" />
+      <item itemvalue="Gradle.MenuControllerTest" />
+      <item itemvalue="Gradle.PacmanControllerTest" />
       <item itemvalue="Gradle.MonsterControllerTest" />
-      <item itemvalue="Gradle.MonsterControllerTest.testMoveMonster" />
-      <item itemvalue="Gradle.PacmanViewerTest" />
       <item itemvalue="Gradle.project-l05gr05 [pitest]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MonsterControllerTest.testMoveMonster" />
-        <item itemvalue="Gradle.MonsterControllerTest" />
         <item itemvalue="Gradle.project-l05gr05 [pitest]" />
-        <item itemvalue="Gradle.PacmanViewerTest" />
-        <item itemvalue="Gradle.LanternaGUITest" />
+        <item itemvalue="Gradle.PacmanControllerTest" />
+        <item itemvalue="Gradle.GameViewerTest" />
+        <item itemvalue="Gradle.MonsterControllerTest" />
+        <item itemvalue="Gradle.MenuControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -461,10 +505,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created the folders for testing" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/project_l05gr05$PacmanViewerTest.ic" NAME="PacmanViewerTest Coverage Results" MODIFIED="1703292549680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/project_l05gr05$CoinViewerTest.ic" NAME="CoinViewerTest Coverage Results" MODIFIED="1703291678098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/project_l05gr05$PacmanControllerTest.ic" NAME="PacmanControllerTest Coverage Results" MODIFIED="1703290103438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/project_l05gr05$project_l05gr05__pitest_.ic" NAME="project-l05gr05 [pitest] Coverage Results" MODIFIED="1703292570676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project_l05gr05$GameViewerTest.ic" NAME="GameViewerTest Coverage Results" MODIFIED="1703355902609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project_l05gr05$LanternaGUITest.ic" NAME="LanternaGUITest Coverage Results" MODIFIED="1703291344078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project_l05gr05$project_l05gr05__pitest_.ic" NAME="project-l05gr05 [pitest] Coverage Results" MODIFIED="1703356943834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project_l05gr05$PacmanControllerTest.ic" NAME="PacmanControllerTest Coverage Results" MODIFIED="1703290103438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project_l05gr05$CoinViewerTest.ic" NAME="CoinViewerTest Coverage Results" MODIFIED="1703291678098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project_l05gr05$ArenaControllerTest.ic" NAME="ArenaControllerTest Coverage Results" MODIFIED="1703354032006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project_l05gr05$PacmanViewerTest.ic" NAME="PacmanViewerTest Coverage Results" MODIFIED="1703292549680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
