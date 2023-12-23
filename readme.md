@@ -2,7 +2,7 @@
 
 O "Pacxon" consiste na junção de dois jogos: PacMan e Xonix. O objetivo principal do jogo é preencher os espaços vazios e capturar os monstros construindo paredes à volta deles. O utilizador passa para o nível seguinte assim que preencher 80% do mapa. À medida que avança de nível a dificuldade aumenta.
 
-Autores: Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Francisco Lopes (up202108796) para LDTS 2023/24
+**Autores:** Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Francisco Lopes (up202108796) para a Unidade Curricular LDTS, ano letivo 2023/24.
 
 ### UML
 
@@ -12,7 +12,7 @@ Autores: Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Fran
 ### MOCKUPS 
 
 Os seguintes mockups foram desenvolvidos recorrendo à plataforma "Figma" e têm como objetivo esboçar o resultado do design final pretendido pelo grupo.
-Inicialmente pensámos que poderíamos utilizar ficheiros com a extensão .png no projeto então tínhamos idealizado estes mockups. Depois de reler o script, vimos que tinha que ser tudo em texto então o resultado final ficou evidentemente diferente dos mockups.
+Inicialmente pensámos que poderíamos utilizar ficheiros com a extensão .png no projeto então tínhamos idealizado estes mockups. Depois de reler o script, vimos que o projeto tinha que ser desenvolvido em text-based então o resultado final ficou evidentemente diferente dos mockups.
 
 ![](docs/mockups/MenuInicial.png) 
 **Fig 2.** Menu Inicial 
@@ -35,7 +35,7 @@ Inicialmente pensámos que poderíamos utilizar ficheiros com a extensão .png n
 ![](docs/mockups/EcraColisão.png)
 **Fig 8.** Simulação de Colisão
 
-![](/docs/mockups/GameOver.png) 
+![](docs/mockups/GameOver.png) 
 **Fig 9.** Ecrã em caso de Game Over
 
 ![](docs/mockups/Win.png)   
@@ -72,6 +72,7 @@ Os seguintes screenshots foram tirados durante o desenvolvimento do projeto e t�
 ![](docs/screenshots/DieMenu.png)
 **Fig 18.** Ecrã em caso de perder o jogo
 
+**NOTA:**  Aceder à descrição dos design patterns e testing em "docs/README.md"
 ### SELF-EVALUATION
 A divisão de trabalho foi feita através de acordos mútuos e todos os elementos participaram na execução do projeto equitativamente.
 - Beatriz Pereira: 33%
