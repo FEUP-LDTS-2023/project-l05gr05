@@ -63,7 +63,7 @@ O projeto não apresenta erros evidentes e não foram encontrados code-smells.
 No entanto, na submissão anterior, encontramos alguns code smells como Speculative Generality (Generalidade Especulativa), isto é, código que fora criado para lidar com futuras funcionalidades, mas que acabou por não ser necessário ou ter necessitado de várias alterações.
 
 ### Testing
-O grupo recooreu a algumas ferramentas e Frameworks para a tarefa de testing, tais como:
+O grupo recorreu a algumas ferramentas e Frameworks para a tarefa de testing, tais como:
 JUnit: Para a criação e execução de testes unitários.
 Mockito: Para a criação de mocks e simulação de comportamentos.
 PIT Mutation Testing: Para avaliar a qualidade dos testes unitários, identificando deficiências através de mutações no código.
