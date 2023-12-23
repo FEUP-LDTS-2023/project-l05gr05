@@ -15,6 +15,15 @@ public class PacmanTest {
         assertEquals(new Position(2, 3), pacman.getPosition());
     }
 
+    @Test
+    void testIsDead() {
+        Pacman pacman = new Pacman(0, 0);
+        assertFalse(pacman.isDead());
+
+        pacman.setLives(0);
+        assertTrue(pacman.isDead());
+    }
+
 
     /* Testa se a energia é reduzida corretamente  */
     @Test
@@ -43,6 +52,30 @@ public class PacmanTest {
         Pacman pacman = new Pacman(2, 3);
         pacman.setPosition(new Position(4, 5));
         assertEquals(new Position(4, 5), pacman.getPosition());
+    }
+
+    @Test
+    void testSetAndGetLives() {
+        Pacman pacman = new Pacman(0, 0);
+        pacman.setLives(5);
+
+        assertEquals(5, pacman.getLives());
+    }
+
+    @Test
+    void testAddPointsByCoin() {
+        Pacman pacman = new Pacman(0, 0);
+        pacman.addPointsByCoin();
+
+        assertEquals(20, pacman.getPoints());
+    }
+
+    @Test
+    void testSetAndGetPoints() {
+        Pacman pacman = new Pacman(0, 0);
+        pacman.setPoints(100);
+
+        assertEquals(100, pacman.getPoints());
     }
 
 }

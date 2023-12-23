@@ -1,9 +1,35 @@
 package com.pacxon.model;
+import net.jqwik.api.ForAll;
+import net.jqwik.api.Property;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PositionTest {
+
+    @Property
+    void moveLeftShouldDecreaseX(@ForAll int x, @ForAll int y) {
+        Position position = new Position(x, y);
+        Position left = position.getLeft();
+        assertEquals(x - 1, left.getX());
+        assertEquals(y, left.getY());
+    }
+
+    @Property
+    void moveRightShouldIncreaseX(@ForAll int x, @ForAll int y) {
+        Position position = new Position(x, y);
+        Position right = position.getRight();
+        assertEquals(x + 1, right.getX());
+        assertEquals(y, right.getY());
+    }
+
+
+    @Property
+    void positionsWithSameCoordinatesShouldBeEqual(@ForAll int x, @ForAll int y) {
+        Position position1 = new Position(x, y);
+        Position position2 = new Position(x, y);
+        assertEquals(position1, position2);
+    }
 
     //testa se o getter para x funciona orretamente
     @Test
@@ -85,4 +111,7 @@ public class PositionTest {
         assertEquals(position1.hashCode(), position2.hashCode());
         assertNotEquals(position1.hashCode(), position3.hashCode());
     }
+
+
+
 }

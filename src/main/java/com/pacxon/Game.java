@@ -65,5 +65,9 @@ public class Game {
     public void pause() {
         isRunning = false;
     }
+
+    public State getState() {
+        return state;
+    }
 }
 

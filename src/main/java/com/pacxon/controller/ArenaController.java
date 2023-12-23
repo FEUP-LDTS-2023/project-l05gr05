@@ -44,6 +44,5 @@ public class ArenaController extends GameController {
                 game.setState(new WinGameState(new MenuWinGame(getModel().getPacman().getPoints())));
             }
         }
-        //adaptar quando for para meter a regra de 80% de preenchimento
     }
 }

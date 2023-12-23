@@ -1,21 +1,38 @@
 package com.pacxon.viewer;
 
 
-/*tirar*/
+import com.pacxon.gui.GUI;
+import com.pacxon.model.Monster;
+import com.pacxon.model.Position;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import static org.mockito.Mockito.*;
 
 public class MonsterViewerTest {
 
-    /**
-    @Test
-    public void testDraw() {
-        // Verifica se o método draw() desenha corretamente um monstro na posição dada usando a GUI fornecida
-        MonsterViewer monsterViewer = new MonsterViewer();
-        GUI gui = mock(GUI.class);
-        Monster monster = new Monster(// position);
-        monsterViewer.draw(monster, gui);
+    private MonsterViewer viewer;
 
-        // Verifica se o método drawMonster() da GUI é chamado corretamente com a posição do monstro
-        verify(gui).drawMonster(monster.getPosition());
+    @Mock
+    private Monster mockMonster;
+
+    @Mock
+    private GUI mockGui;
+
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+        viewer = new MonsterViewer();
     }
-    */
+
+    @Test
+    void testDraw() {
+        Position monsterPosition = new Position(5, 5);
+        when(mockMonster.getPosition()).thenReturn(monsterPosition);
+
+        viewer.draw(mockMonster, mockGui);
+
+        verify(mockGui, times(1)).drawMonster(monsterPosition);
+    }
 }
