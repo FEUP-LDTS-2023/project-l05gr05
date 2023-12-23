@@ -1,20 +1,26 @@
 package com.pacxon.viewer;
 
+import com.pacxon.model.Pacman;
+import com.pacxon.gui.GUI;
+import com.pacxon.model.Position;
+import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
-/*tirar */
+import static org.mockito.Mockito.verify;
 
 public class PacmanViewerTest {
-    /**
-    @Test
-    public void testDraw() {
-        // Verifica se o método draw() desenha corretamente um Pacman na posição dada usando a GUI fornecida
-        PacmanViewer pacmanViewer = new PacmanViewer();
-        GUI gui = mock(GUI.class);
-        Pacman pacman = new Pacman(//position);
-        pacmanViewer.draw(pacman, gui);
 
-        // Verifica se o método drawPacman() da GUI é chamado corretamente com a posição do Pacman
-        verify(gui).drawPacman(pacman.getPosition());
+    @Test
+    public void testDrawPacman() {
+
+        GUI gui = Mockito.mock(GUI.class);
+        PacmanViewer pacmanViewer = new PacmanViewer();
+        int x = 3;
+        int y = 3;
+        Position position = new Position(x, y);
+        Pacman pacman = new Pacman(x, y);
+        pacmanViewer.draw(pacman, gui);
+        verify(gui).drawPacman(position);
     }
-    */
 }
+

@@ -6,6 +6,8 @@ import java.io.IOException;
 public class MusicSound {
     private Clip clip;
 
+    public Clip getClip() { return clip; }
+
     public MusicSound(String filePath) {
         try {
             File audioFile = new File(filePath);

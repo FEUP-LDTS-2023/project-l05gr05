@@ -42,5 +42,4 @@ public class PacmanControllerTest {
 
         verify(pacman).setPosition(leftPosition);
     }
-
 }
