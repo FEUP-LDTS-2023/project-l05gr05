@@ -4,6 +4,9 @@ O "Pacxon" consiste na junção de dois jogos: PacMan e Xonix. O objetivo princi
 
 **Autores:** Beatriz Pereira (up202207380), Francisca Fernandes (up202106509) e Francisco Lopes (up202108796) para a Unidade Curricular LDTS, ano letivo 2023/24.
 
+### Fonte
+Baseamos a estruturação do código no hero-solid do professor André Restivo.
+
 ### UML
 
 ![](docs/uml/uml.png)
